@@ -12,6 +12,8 @@ package
 	import flash.utils.getDefinitionByName;
 	import com.dreamofninjas.rib.RibStage;
 
+	[SWF(width="800", height="600")]
+	
 	public class RecommendedItemBuilder extends Sprite
 	{
 		public function RecommendedItemBuilder() {
@@ -34,7 +36,7 @@ package
 
 		private function initApp():void
 		{
-			var ribStage:RibStage = new RibStage();
+			var ribStage:RibStage = RibStage.Get();
 			addChild(ribStage);
 		}
 

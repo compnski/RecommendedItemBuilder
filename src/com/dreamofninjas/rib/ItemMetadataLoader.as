@@ -1,6 +1,6 @@
 package com.dreamofninjas.rib {
 import com.dreamofninjas.rib.GenericLoader;
-import com.dreamofninjas.rib.ItemMetadata;
+import com.dreamofninjas.rib.models.ItemMetadata;
 
 import flash.events.Event;
 import flash.events.EventDispatcher;
@@ -40,7 +40,7 @@ public class ItemMetadataLoader extends GenericLoader {
 
 		for each(var item:XML in xml.descendants("item")) {
 			itemList[item.id.toString()] = new ItemMetadata(item.name.toString(),
-															item.id.toString(),
+															int(item.id.toString()),
 															item.description.toString(),
 															int(item.cost.toString()),
 															_toStrList(item..components),

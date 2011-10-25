@@ -1,17 +1,22 @@
-package com.dreamofninjas.rib.model {
-		class ItemSet {
+package com.dreamofninjas.rib.models {
+	import com.dreamofninjas.rib.Set;
+	
+	import flash.events.Event;
+	import flash.events.EventDispatcher;
 
-				const MAX_ITEMS_PER_SET:int = 6;
+		public class ItemSet extends EventDispatcher {
+
+				protected const MAX_ITEMS_PER_SET:int = 6;
 
 				protected var _name:String;
-				protected var _items:Array = new Array(MAX_ITEMS_PER_SET);
+				protected var _items:Array = [];
 				protected var _tags:Set = new Set();
 				protected var _champions:Set = new Set();
 
 				public function ItemSet(name:String, items:Array = null, tags:Set = null, champions:Set = null) {
 						_name = name;
 						if (items != null && items.length <= 6) {
-								_items.splice(0, 0, items);
+							_items = _items.concat(items);
 						}
 						if (tags != null) {
 								_tags.update(tags);
@@ -25,11 +30,12 @@ package com.dreamofninjas.rib.model {
 						return _items[slotId];
 				}
 
-				public function setItem(itemId:String, slotId:int):void {
+				public function setItem(slotId:int, itemId:int):void {
 						if (slotId > MAX_ITEMS_PER_SET) {
 								throw new Error("No item slot " + slotId);
 						}
 						_items[slotId] = itemId;
+						_setUpdated(slotId);
 				}
 				public function removeItem(slotId:int):void {
 						if (slotId > MAX_ITEMS_PER_SET) {
@@ -37,22 +43,37 @@ package com.dreamofninjas.rib.model {
 						}
 						_items[slotId] = null;
 				}
+				
+				protected function _setUpdated(slotId:int):void {
+					dispatchEvent(new Event("UPDATED"));
+				}
+				
+				
+				public function get championList():Set {
+					return _champions;
+				}
 
-				function addChampion(championId:String):void {
+				public function get tagList():Set {
+					return _tags;
+				}
+
+				public function addChampion(championId:String):void {
 						_champions.add(championId);
 				}
-				function removeChampion(championId:String):void {
+				public function removeChampion(championId:String):void {
 						_champions.remove(championId);
 				}
 
-				function addTag(tag:String):void {
+				public function addTag(tag:String):void {
 						_tags.add(tag);
 				}
-				function removeTag(tag:String):void {
+				public function removeTag(tag:String):void {
 						_tags.remove(tag)
 								}
-
-				function set name(name:String):void {
+				public function get name():String {
+					return _name;
+				}
+				public function set name(name:String):void {
 						_name = name;
 				}
 		}

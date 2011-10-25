@@ -1,4 +1,4 @@
-package com.dreamofninjas.rib
+package com.dreamofninjas.rib.events
 {
 	import flash.events.Event;
 	/**

@@ -1,4 +1,4 @@
-package com.dreamofninjas.rib {
+package com.dreamofninjas.rib.controllers {
 		public class MainViewController extends EventDispatcher {
 
 				// Handles input and interactions for the item slots

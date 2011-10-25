@@ -1,5 +1,7 @@
 package com.dreamofninjas.rib
 {
+	import com.dreamofninjas.rib.events.LoadedEvent;
+	
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
 	

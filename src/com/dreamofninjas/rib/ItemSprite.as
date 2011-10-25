@@ -15,5 +15,9 @@ package com.dreamofninjas.rib
 			_image = image;
 			addChild(image);
 		}
+		
+		public override function toString():String {
+			return "[ItemSprite "  + _id + "]";
+		}
 	}
 }
