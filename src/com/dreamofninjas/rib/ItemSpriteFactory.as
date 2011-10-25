@@ -8,7 +8,7 @@ package com.dreamofninjas.rib
    
     public class ItemSpriteFactory {
 
-        public static function getItemById(id:int):ItemSprite {
+        public static function GetItemById(id:int):ItemSprite {
             return itemsById[id];
         }
 
