@@ -37,6 +37,13 @@ package com.dreamofninjas.rib.views.sprites {
 						return "ItemSlotSprite(" + itemId + ")";
 				}
 
+				public override function equals(obj:Object):Boolean {
+						if (!(obj is ItemSlotSprite)) {
+								return false;
+						}
+						return obj.itemId == this.itemId;
+				}
+
 				private function loadItemImage(itemId:int):void {
 						if (this.clip.anchor != null && _currentItemSprite != null) {
 							this.clip.anchor.removeChild(_currentItemSprite);

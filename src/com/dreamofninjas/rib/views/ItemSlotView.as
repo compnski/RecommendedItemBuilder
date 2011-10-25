@@ -1,7 +1,6 @@
 package com.dreamofninjas.rib.views {
 	import com.dreamofninjas.rib.models.ItemSet;
 	import com.dreamofninjas.rib.views.sprites.ItemSlotSprite;
-	
 	import flash.display.Sprite;
 	import flash.events.Event;
 
@@ -33,7 +32,6 @@ package com.dreamofninjas.rib.views {
 				protected function itemSetUpdated(evt:Event):void {
 						for (var i:int = 0; i < 6; i++) {
 								_itemSlotSprites[i].itemId = _itemSet.getItem(i);
-								
 						}
 				}
 		}
