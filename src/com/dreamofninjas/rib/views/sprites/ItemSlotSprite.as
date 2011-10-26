@@ -1,6 +1,5 @@
 package com.dreamofninjas.rib.views.sprites {
-	import com.dreamofninjas.rib.AnimatedClip;
-	import com.dreamofninjas.rib.ItemSprite;
+	import com.dreamofninjas.core.ui.AnimatedClip;
 	import com.dreamofninjas.rib.ItemSpriteFactory;
 	import com.dreamofninjas.rib.RibStage;
 	import com.dreamofninjas.rib.events.ItemSelectorEvent;
@@ -37,13 +36,10 @@ package com.dreamofninjas.rib.views.sprites {
 						return "ItemSlotSprite(" + itemId + ")";
 				}
 
-				public override function equals(obj:Object):Boolean {
-						if (!(obj is ItemSlotSprite)) {
-								return false;
-						}
-						return obj.itemId == this.itemId;
+				public function valueOf():Object {
+					return toString();
 				}
-
+				
 				private function loadItemImage(itemId:int):void {
 						if (this.clip.anchor != null && _currentItemSprite != null) {
 							this.clip.anchor.removeChild(_currentItemSprite);

@@ -1,10 +1,13 @@
 package com.dreamofninjas.rib.views
 {
-	import com.dreamofninjas.rib.ItemSprite;
+	import com.dreamofninjas.core.ui.BaseLayout;
+	import com.dreamofninjas.core.ui.ScrollableGridLayout;
+	import com.dreamofninjas.core.ui.SpriteList;
+	import com.dreamofninjas.rib.views.sprites.ItemSprite;
 	import com.dreamofninjas.rib.events.ItemSelectorEvent;
 	import com.dreamofninjas.rib.models.ItemMetadata;
 	import com.dreamofninjas.rib.views.sprites.ItemSlotSprite;
-
+	
 	import flash.display.Sprite;
 	import flash.events.MouseEvent;
 
@@ -20,40 +23,41 @@ package com.dreamofninjas.rib.views
 
 			private var _itemList:Object;
 			private var _gridLayout:ScrollableGridLayout;
-			private var _spriteList:Spritelist;
+			private var _spriteList:SpriteList = new SpriteList();
+			private var _spriteMap:Object = {};
 
 			public function ItemSelectorView(itemList:Object) {
 					super();
 					_itemList = itemList;
 			}
 
-			protected function setupView():void {
+			protected override function setupView():void {
 					var itemSlotSprite:Sprite = new ItemSlotSprite();
 					var itemW:int = itemSlotSprite.width;
 					var itemH:int = itemSlotSprite.height;
-					_spriteList = buildSpriteList(_itemList);
-
-					_gridLayout = new ScrollableGridLayout(spriteList)
-							.withWidth(GRID_WIDTH)
-							.withHeight(GRID_HEIGHT)
+					buildSpriteList(_itemList, _spriteMap, _spriteList);
+					
+					_gridLayout = new ScrollableGridLayout(_spriteList)
 							.withItemHeight(itemH)
 							.withItemWidth(itemW)
-							.build();
+							.withWidth(GRID_WIDTH)
+							.withHeight(GRID_HEIGHT)
+							.build() as ScrollableGridLayout; 
 
 					_gridLayout.addEventListener(ItemSelectorEvent.SELECTED, itemSelected);
+					addChild(_gridLayout);
 			}
 
 			protected function itemSelected(ev:ItemSelectorEvent):void {
-					spriteList.remove(new ItemSlot(ev.itemId));
+					_spriteList.remove(_spriteMap[ev.itemId]);
 			}
 
-			private function buildSpriteList(itemList:Object):SpriteList {
-					var spriteList:SpriteList = new SpriteList();
-
+			private function buildSpriteList(itemList:Object, spriteMap:Object, spriteList:SpriteList):void {
 					for each(var item:ItemMetadata in itemList) {
 									const itemId:int = item.itemId;
 									var sprite:ItemSlotSprite = new ItemSlotSprite(item.itemId);
-									spriteList.add(sprite);
+									spriteList.push(sprite);
+									spriteMap[item.itemId] = sprite;
 							}
 			}
 	}

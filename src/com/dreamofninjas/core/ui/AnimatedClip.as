@@ -1,4 +1,4 @@
-package com.dreamofninjas.rib
+package com.dreamofninjas.core.ui
 {
 	import avmplus.getQualifiedClassName;
 

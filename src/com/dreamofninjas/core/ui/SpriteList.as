@@ -1,71 +1,69 @@
 package com.dreamofninjas.core.ui {
+	import flash.display.Sprite;
+	import flash.events.Event;
+	import flash.events.EventDispatcher;
+	import flash.events.IEventDispatcher;
+	
+	public dynamic class SpriteList extends Array implements IEventDispatcher {
+		private var _dispatcher:EventDispatcher = new EventDispatcher();
+		
+		public function SpriteList(...args) {
+			var n:uint = args.length 
+			for (var i:int=0; i < n; i++) 
+			{ 
+				// type check done in push()  
+				this.push(args[i]) 
+			} 
+			length = this.length; 
+		}
+		
+		public function remove(sprite:Sprite):void {
+			
+		}
+		
+		AS3 override function push(...args):uint
+		{
+			addedSprites(args);
+			return super.push.apply(this,args);
+		}
+		
+		AS3 override function splice(...values):* {
+			var removedSpritesList:Array = super.splice.apply(this, values);
+			if (removedSpritesList.length > 0) {
+				removedSprites(removedSpritesList);
+			}
+			return removedSpritesList;
+		}
+		
+		protected function addedSprites(updatedList:Array):void {
+			dispatchEvent(new SpriteListEvent(SpriteListEvent.SPRITES_ADDED, updatedList));
+			dispatchEvent(new SpriteListEvent(SpriteListEvent.UPDATED));
+		}
+		protected function removedSprites(updatedList:Array):void {
+			dispatchEvent(new SpriteListEvent(SpriteListEvent.SPRITES_REMOVED, updatedList));
+			dispatchEvent(new SpriteListEvent(SpriteListEvent.UPDATED));
+		}
 
-	public class SpriteList extends EventDispatcher {
-			private _spriteList:Array = [];
 
-			public function SpriteList(obj:Object = null) {
-					if (obj == null) {
-							return;
-					}
-					update(obj);
-			}
-
-			public function update(obj:Object):void {
-					var updatedList:Array = [];
-					if (obj is Array) {
-							for (var item:Object in obj) {
-									_add(item);
-							}
-							updatedList = obj;
-					} else if (obj is Object) {
-							for each(var obj:Object in set) {
-											updatedList.push(obj);
-											_add(obj);
-									}
-					}
-					addedSprites(updatedList);
-			}
-
-			public function add(obj:Object):void {
-					_add(obj);
-					addedSprites([obj]);
-			}
-
-			protected function addedSprites(updatedList:Array):void {
-					dispatchEvent(new SpriteListEvent(SpriteListEvent.SPRITES_ADDED, updatedList));
-					dispatchEvent(new SpriteListEvent(SpriteListEvent.UPDATED));
-			}
-			protected function removedSprites(updatedList:Array):void {
-					displayEvent(new SpriteListEvent(SpriteListEvent.SPRITES_REMOVED, updatedList));
-					dispatchEvent(new SpriteListEvent(SpriteListEvent.UPDATED));
-			}
-
-			protected function _add(obj:Object):void {
-					if (has(obj)) {
-							return;
-					}
-					_spriteList.push(obj);
-			}
-
-			public function remove(obj:Object):Boolean {
-					_remove(obj);
-					removedSprites([obj]);
-			}
-
-			protected function _remove(obj:Object):Boolean {
-					if (!has(obj)) {
-					return false;
-			}
-					_spriteList.splice(_spriteList.indexOf(obj), 1);
-					return true;
-			}
-
-			public function has(obj:Object):Boolean {
-					return _spriteList.indexOf(obj) != -1;
-			}
-
-			public function hasOwnProperty(key:String):Boolean {
-					return has(key);
-			}
+		public function addEventListener(type:String, listener:Function, useCapture:Boolean = false, priority:int=0, useWeakReference:Boolean=false):void
+		{
+			_dispatcher.addEventListener(type, listener, useCapture, priority);
+		}
+		public function dispatchEvent(e:Event):Boolean
+		{
+			return _dispatcher.dispatchEvent(e);
+		}
+		public function hasEventListener(type:String):Boolean
+		{
+			return _dispatcher.hasEventListener(type);
+		}
+		public function removeEventListener(type:String, listener:Function, useCapture:Boolean=false):void
+		{
+			_dispatcher.removeEventListener(type, listener, useCapture);
+		}
+		public function willTrigger(type:String):Boolean
+		{
+			return _dispatcher.willTrigger(type);
+		}
 	}
 }

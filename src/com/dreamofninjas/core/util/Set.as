@@ -1,4 +1,4 @@
-package com.dreamofninjas.rib {
+package com.dreamofninjas.core.util {
 	import flash.net.dns.ARecord;
 
 	public class Set {

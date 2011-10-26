@@ -12,6 +12,8 @@ package com.dreamofninjas.rib
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.utils.getDefinitionByName;
+	import com.dreamofninjas.core.ui.AnimatedClip;
+	import com.dreamofninjas.core.util.MultiLoader;
 	
 	public class RibStage extends Sprite
 	{
@@ -20,7 +22,7 @@ package com.dreamofninjas.rib
 		protected var itemMetadataLoader:ItemMetadataLoader = new ItemMetadataLoader();
 		protected var initialAssetLoader:MultiLoader = new MultiLoader();
 		protected var isv:ItemSlotView
-		var items:ItemSet ;
+		private var items:ItemSet ;
 		private static var _instance:RibStage = null;
 		
 		public static function Get():RibStage {
@@ -54,7 +56,10 @@ package com.dreamofninjas.rib
 			//isv.width = isv.width/2;
 			//isv.height= isv.height/2;
 			
-			var iselview:ItemSelectorView = new ItemSelectorView(itemMetadataLoader.itemList, 480, 320);
+			var iselview:ItemSelectorView = new ItemSelectorView(itemMetadataLoader.itemList)
+				.withHeight(480)
+				.withWidth(640)
+				.build() as ItemSelectorView; 
 			iselview.y = 80;
 			addChild(iselview);
 			trace(this.width);

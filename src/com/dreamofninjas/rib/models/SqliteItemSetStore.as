@@ -1,5 +1,5 @@
 package com.dreamofninjas.rib.models {
-	import com.dreamofninjas.rib.Set;
+	import com.dreamofninjas.core.util.Set;
 	
 	import flash.data.SQLStatement;
 	import flash.events.SQLEvent;

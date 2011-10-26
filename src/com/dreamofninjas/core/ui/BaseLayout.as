@@ -6,20 +6,20 @@ package com.dreamofninjas.core.ui
 			protected var _width:int;
 			protected var _height:int;
 
-			public function withHeight(h:int):BaseLayout {
+			public function withHeight(h:int):* {
 					this._height = h;
 					return this;
 			}
-			public function withWidth(w:int):BaseLayout {
+			public function withWidth(w:int):* {
 					this._width = w;
 					return this;
 			}
-			public function build():BaseLayout {
+			public function build():* {
 					setupView();
 					return this;
 			}
 
-			protected override function setupView():void {
+			protected function setupView():void {
 					// Implement this to build the view.
 			}
 

@@ -12,7 +12,7 @@ package com.dreamofninjas.core.ui
 			private var _yPadding:int = 0;
 			private var _yOffset:int = 0;
 
-			public function ItemSelectorView(spriteList:SpriteList) {
+			public function ScrollableGridLayout(spriteList:SpriteList) {
 					super();
 					_spriteList = spriteList;
 					_spriteList.addEventListener(SpriteListEvent.UPDATED, spriteListUpdated);
@@ -29,7 +29,7 @@ package com.dreamofninjas.core.ui
 			public function withXPadding(d:int):ScrollableGridLayout {
 					this._xPadding = d; return this;
 			}
-			public function withYOffset(d:int):ScrollableGridLayout {
+			public function withYPadding(d:int):ScrollableGridLayout {
 					this._yPadding = d; return this;
 			}
 			protected function spriteListUpdated(ev:SpriteListEvent):void {
@@ -45,14 +45,15 @@ package com.dreamofninjas.core.ui
 			}
 
 			protected override function setupView():void {
-					var itemsPerRow:int = (this._width - xOffset) / (_itemW + xPadding);
+					var itemsPerRow:int = (this._width - _xOffset) / (_itemW + _xPadding);
 					var spriteIdx:int = 0;
 
 					for each(var sprite:Sprite in _spriteList) {
+						trace(sprite);
 									sprite.width = _itemW;
 									sprite.height = _itemH;
-									sprite.x = (spriteIdx % itemsPerRow) * (_itemW + xPadding) + xOffset;
-									sprite.y = int(spriteIdx / itemsPerRow) * (_itemH + yPadding) + yOffset;
+									sprite.x = (spriteIdx % itemsPerRow) * (_itemW + _xPadding) + _xOffset;
+									sprite.y = int(spriteIdx / itemsPerRow) * (_itemH + _yPadding) + _yOffset;
 									addChild(sprite);
 									spriteIdx++;
 							}

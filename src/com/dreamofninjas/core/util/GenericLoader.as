@@ -1,4 +1,4 @@
-package com.dreamofninjas.rib
+package com.dreamofninjas.core.util
 {
 	import com.dreamofninjas.rib.events.LoadedEvent;
 	

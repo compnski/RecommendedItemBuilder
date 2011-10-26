@@ -6,6 +6,7 @@ package com.dreamofninjas.rib
 {
     import flash.display.Bitmap;
     import flash.display.Sprite;
+    import com.dreamofninjas.rib.views.sprites.ItemSprite;
    
     public class ItemSpriteFactory {
 

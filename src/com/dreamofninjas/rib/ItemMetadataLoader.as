@@ -1,11 +1,12 @@
 package com.dreamofninjas.rib {
-import com.dreamofninjas.rib.GenericLoader;
+import com.dreamofninjas.core.util.GenericLoader;
 import com.dreamofninjas.rib.models.ItemMetadata;
 
 import flash.events.Event;
 import flash.events.EventDispatcher;
 import flash.net.URLLoader;
 import flash.net.URLRequest;
+import com.dreamofninjas.core.util.GenericLoader;
 
 public class ItemMetadataLoader extends GenericLoader {
 

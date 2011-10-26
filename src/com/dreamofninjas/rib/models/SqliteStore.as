@@ -1,5 +1,5 @@
 package com.dreamofninjas.rib.models {
-	import com.dreamofninjas.rib.GenericLoader;
+	import com.dreamofninjas.core.util.GenericLoader;
 	
 	import flash.data.SQLConnection;
 	import flash.data.SQLStatement;
