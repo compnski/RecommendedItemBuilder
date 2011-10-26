@@ -18,7 +18,7 @@ package com.dreamofninjas.core.ui {
 		}
 		
 		public function remove(sprite:Sprite):void {
-			
+			splice(indexOf(sprite), 1);
 		}
 		
 		AS3 override function push(...args):uint

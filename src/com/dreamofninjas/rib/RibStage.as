@@ -1,6 +1,6 @@
 package com.dreamofninjas.rib
 {
-	import com.dreamofninjas.rib.events.ItemSelectorEvent;
+	import com.dreamofninjas.rib.events.ItemSlotSpriteEvent;
 	import com.dreamofninjas.rib.events.LoadedEvent;
 	import com.dreamofninjas.rib.models.ItemSet;
 	import com.dreamofninjas.rib.models.SqliteItemSetStore;
@@ -51,6 +51,7 @@ package com.dreamofninjas.rib
 			
 			items= new ItemSet("TriforceAtmogs", [2003, 3096, 3078, 3083, 3005, 0]);
 			isv = new ItemSlotView();
+			isv.y = 10;
 			addChild(isv);			
 			isv.itemSet = items;
 			//isv.width = isv.width/2;
@@ -60,15 +61,15 @@ package com.dreamofninjas.rib
 				.withHeight(480)
 				.withWidth(640)
 				.build() as ItemSelectorView; 
-			iselview.y = 80;
+			iselview.y = 90;
 			addChild(iselview);
 			trace(this.width);
-			addEventListener(ItemSelectorEvent.SELECTED, setItems);
+			addEventListener(ItemSlotSpriteEvent.SELECTED, setItems);
 		}
 		
-		protected function setItems(ev:ItemSelectorEvent):void {
+		protected function setItems(ev:ItemSlotSpriteEvent):void {
 				trace("im a thing");
-				items.setItem(0, ev.itemId)
+				items.setItem(isv.selectedSlotId, ev.itemId)
 			}
 
 			//itemStore.saveItemSet(items);
