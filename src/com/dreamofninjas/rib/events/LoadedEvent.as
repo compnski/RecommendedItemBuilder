@@ -14,7 +14,7 @@ package com.dreamofninjas.rib.events
 			super(type, bubbles, cancelable);
 			_loaderId = loaderId;
 		}
-
+		
 		public function get loaderId():String
 		{
 			return _loaderId;

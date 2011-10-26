@@ -43,8 +43,8 @@ package com.dreamofninjas.core.ui {
 			dispatchEvent(new SpriteListEvent(SpriteListEvent.SPRITES_REMOVED, updatedList));
 			dispatchEvent(new SpriteListEvent(SpriteListEvent.UPDATED));
 		}
-
-
+		
+		
 		public function addEventListener(type:String, listener:Function, useCapture:Boolean = false, priority:int=0, useWeakReference:Boolean=false):void
 		{
 			_dispatcher.addEventListener(type, listener, useCapture, priority);

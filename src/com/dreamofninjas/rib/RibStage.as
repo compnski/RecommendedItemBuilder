@@ -5,7 +5,7 @@ package com.dreamofninjas.rib
 	import com.dreamofninjas.rib.models.ItemSet;
 	import com.dreamofninjas.rib.models.SqliteItemSetStore;
 	import com.dreamofninjas.rib.views.ItemSelectorView;
-	import com.dreamofninjas.rib.views.ItemSlotView;
+	import com.dreamofninjas.rib.views.ItemSetView;
 	
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
@@ -21,7 +21,7 @@ package com.dreamofninjas.rib
 		protected var itemStore:SqliteItemSetStore = new SqliteItemSetStore();
 		protected var itemMetadataLoader:ItemMetadataLoader = new ItemMetadataLoader();
 		protected var initialAssetLoader:MultiLoader = new MultiLoader();
-		protected var isv:ItemSlotView
+		protected var isv:ItemSetView
 		private var items:ItemSet ;
 		private static var _instance:RibStage = null;
 		
@@ -50,7 +50,7 @@ package com.dreamofninjas.rib
 			trace(itemMetadataLoader);
 			
 			items= new ItemSet("TriforceAtmogs", [2003, 3096, 3078, 3083, 3005, 0]);
-			isv = new ItemSlotView();
+			isv = new ItemSetView();
 			isv.y = 10;
 			addChild(isv);			
 			isv.itemSet = items;
