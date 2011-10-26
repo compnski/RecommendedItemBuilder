@@ -14,325 +14,325 @@ package com.dreamofninjas.rib
             return new ItemSprite(id, new itemsById[id]());
         }
 
-        [Embed(source="embeddedAssets/images/items/3005.gif")]
+        [Embed(source="/embeddedAssets/images/items/3005.gif")]
         private static var ID3005:Class;
 
-        [Embed(source="embeddedAssets/images/items/3134.gif")]
+        [Embed(source="/embeddedAssets/images/items/3134.gif")]
         private static var ID3134:Class;
 
-        [Embed(source="embeddedAssets/images/items/3050.gif")]
+        [Embed(source="/embeddedAssets/images/items/3050.gif")]
         private static var ID3050:Class;
 
-        [Embed(source="embeddedAssets/images/items/1018.gif")]
+        [Embed(source="/embeddedAssets/images/items/1018.gif")]
         private static var ID1018:Class;
 
-        [Embed(source="embeddedAssets/images/items/3083.gif")]
+        [Embed(source="/embeddedAssets/images/items/3083.gif")]
         private static var ID3083:Class;
 
-        [Embed(source="embeddedAssets/images/items/3001.gif")]
+        [Embed(source="/embeddedAssets/images/items/3001.gif")]
         private static var ID3001:Class;
 
-        [Embed(source="embeddedAssets/images/items/3057.gif")]
+        [Embed(source="/embeddedAssets/images/items/3057.gif")]
         private static var ID3057:Class;
 
-        [Embed(source="embeddedAssets/images/items/3140.gif")]
+        [Embed(source="/embeddedAssets/images/items/3140.gif")]
         private static var ID3140:Class;
 
-        [Embed(source="embeddedAssets/images/items/3082.gif")]
+        [Embed(source="/embeddedAssets/images/items/3082.gif")]
         private static var ID3082:Class;
 
-        [Embed(source="embeddedAssets/images/items/3141.gif")]
+        [Embed(source="/embeddedAssets/images/items/3141.gif")]
         private static var ID3141:Class;
 
-        [Embed(source="embeddedAssets/images/items/1053.gif")]
+        [Embed(source="/embeddedAssets/images/items/1053.gif")]
         private static var ID1053:Class;
 
-        [Embed(source="embeddedAssets/images/items/3010.gif")]
+        [Embed(source="/embeddedAssets/images/items/3010.gif")]
         private static var ID3010:Class;
 
-        [Embed(source="embeddedAssets/images/items/3142.gif")]
+        [Embed(source="/embeddedAssets/images/items/3142.gif")]
         private static var ID3142:Class;
 
-        [Embed(source="embeddedAssets/images/items/3097.gif")]
+        [Embed(source="/embeddedAssets/images/items/3097.gif")]
         private static var ID3097:Class;
 
-        [Embed(source="embeddedAssets/images/items/2039.gif")]
+        [Embed(source="/embeddedAssets/images/items/2039.gif")]
         private static var ID2039:Class;
 
-        [Embed(source="embeddedAssets/images/items/3075.gif")]
+        [Embed(source="/embeddedAssets/images/items/3075.gif")]
         private static var ID3075:Class;
 
-        [Embed(source="embeddedAssets/images/items/1043.gif")]
+        [Embed(source="/embeddedAssets/images/items/1043.gif")]
         private static var ID1043:Class;
 
-        [Embed(source="embeddedAssets/images/items/1051.gif")]
+        [Embed(source="/embeddedAssets/images/items/1051.gif")]
         private static var ID1051:Class;
 
-        [Embed(source="embeddedAssets/images/items/1011.gif")]
+        [Embed(source="/embeddedAssets/images/items/1011.gif")]
         private static var ID1011:Class;
 
-        [Embed(source="embeddedAssets/images/items/3072.gif")]
+        [Embed(source="/embeddedAssets/images/items/3072.gif")]
         private static var ID3072:Class;
 
-        [Embed(source="embeddedAssets/images/items/3003.gif")]
+        [Embed(source="/embeddedAssets/images/items/3003.gif")]
         private static var ID3003:Class;
 
-        [Embed(source="embeddedAssets/images/items/1036.gif")]
+        [Embed(source="/embeddedAssets/images/items/1036.gif")]
         private static var ID1036:Class;
 
-        [Embed(source="embeddedAssets/images/items/3101.gif")]
+        [Embed(source="/embeddedAssets/images/items/3101.gif")]
         private static var ID3101:Class;
 
-        [Embed(source="embeddedAssets/images/items/2003.gif")]
+        [Embed(source="/embeddedAssets/images/items/2003.gif")]
         private static var ID2003:Class;
 
-        [Embed(source="embeddedAssets/images/items/3109.gif")]
+        [Embed(source="/embeddedAssets/images/items/3109.gif")]
         private static var ID3109:Class;
 
-        [Embed(source="embeddedAssets/images/items/3099.gif")]
+        [Embed(source="/embeddedAssets/images/items/3099.gif")]
         private static var ID3099:Class;
 
-        [Embed(source="embeddedAssets/images/items/3115.gif")]
+        [Embed(source="/embeddedAssets/images/items/3115.gif")]
         private static var ID3115:Class;
 
-        [Embed(source="embeddedAssets/images/items/3028.gif")]
+        [Embed(source="/embeddedAssets/images/items/3028.gif")]
         private static var ID3028:Class;
 
-        [Embed(source="embeddedAssets/images/items/3065.gif")]
+        [Embed(source="/embeddedAssets/images/items/3065.gif")]
         private static var ID3065:Class;
 
-        [Embed(source="embeddedAssets/images/items/1005.gif")]
+        [Embed(source="/embeddedAssets/images/items/1005.gif")]
         private static var ID1005:Class;
 
-        [Embed(source="embeddedAssets/images/items/2043.gif")]
+        [Embed(source="/embeddedAssets/images/items/2043.gif")]
         private static var ID2043:Class;
 
-        [Embed(source="embeddedAssets/images/items/3009.gif")]
+        [Embed(source="/embeddedAssets/images/items/3009.gif")]
         private static var ID3009:Class;
 
-        [Embed(source="embeddedAssets/images/items/1055.gif")]
+        [Embed(source="/embeddedAssets/images/items/1055.gif")]
         private static var ID1055:Class;
 
-        [Embed(source="embeddedAssets/images/items/3128.gif")]
+        [Embed(source="/embeddedAssets/images/items/3128.gif")]
         private static var ID3128:Class;
 
-        [Embed(source="embeddedAssets/images/items/3114.gif")]
+        [Embed(source="/embeddedAssets/images/items/3114.gif")]
         private static var ID3114:Class;
 
-        [Embed(source="embeddedAssets/images/items/1031.gif")]
+        [Embed(source="/embeddedAssets/images/items/1031.gif")]
         private static var ID1031:Class;
 
-        [Embed(source="embeddedAssets/images/items/1056.gif")]
+        [Embed(source="/embeddedAssets/images/items/1056.gif")]
         private static var ID1056:Class;
 
-        [Embed(source="embeddedAssets/images/items/1006.gif")]
+        [Embed(source="/embeddedAssets/images/items/1006.gif")]
         private static var ID1006:Class;
 
-        [Embed(source="embeddedAssets/images/items/3126.gif")]
+        [Embed(source="/embeddedAssets/images/items/3126.gif")]
         private static var ID3126:Class;
 
-        [Embed(source="embeddedAssets/images/items/1037.gif")]
+        [Embed(source="/embeddedAssets/images/items/1037.gif")]
         private static var ID1037:Class;
 
-        [Embed(source="embeddedAssets/images/items/3024.gif")]
+        [Embed(source="/embeddedAssets/images/items/3024.gif")]
         private static var ID3024:Class;
 
-        [Embed(source="embeddedAssets/images/items/3131.gif")]
+        [Embed(source="/embeddedAssets/images/items/3131.gif")]
         private static var ID3131:Class;
 
-        [Embed(source="embeddedAssets/images/items/1058.gif")]
+        [Embed(source="/embeddedAssets/images/items/1058.gif")]
         private static var ID1058:Class;
 
-        [Embed(source="embeddedAssets/images/items/3006.gif")]
+        [Embed(source="/embeddedAssets/images/items/3006.gif")]
         private static var ID3006:Class;
 
-        [Embed(source="embeddedAssets/images/items/3067.gif")]
+        [Embed(source="/embeddedAssets/images/items/3067.gif")]
         private static var ID3067:Class;
 
-        [Embed(source="embeddedAssets/images/items/3031.gif")]
+        [Embed(source="/embeddedAssets/images/items/3031.gif")]
         private static var ID3031:Class;
 
-        [Embed(source="embeddedAssets/images/items/3068.gif")]
+        [Embed(source="/embeddedAssets/images/items/3068.gif")]
         private static var ID3068:Class;
 
-        [Embed(source="embeddedAssets/images/items/1029.gif")]
+        [Embed(source="/embeddedAssets/images/items/1029.gif")]
         private static var ID1029:Class;
 
-        [Embed(source="embeddedAssets/images/items/3152.gif")]
+        [Embed(source="/embeddedAssets/images/items/3152.gif")]
         private static var ID3152:Class;
 
-        [Embed(source="embeddedAssets/images/items/3106.gif")]
+        [Embed(source="/embeddedAssets/images/items/3106.gif")]
         private static var ID3106:Class;
 
-        [Embed(source="embeddedAssets/images/items/3091.gif")]
+        [Embed(source="/embeddedAssets/images/items/3091.gif")]
         private static var ID3091:Class;
 
-        [Embed(source="embeddedAssets/images/items/3004.gif")]
+        [Embed(source="/embeddedAssets/images/items/3004.gif")]
         private static var ID3004:Class;
 
-        [Embed(source="embeddedAssets/images/items/1007.gif")]
+        [Embed(source="/embeddedAssets/images/items/1007.gif")]
         private static var ID1007:Class;
 
-        [Embed(source="embeddedAssets/images/items/1054.gif")]
+        [Embed(source="/embeddedAssets/images/items/1054.gif")]
         private static var ID1054:Class;
 
-        [Embed(source="embeddedAssets/images/items/1057.gif")]
+        [Embed(source="/embeddedAssets/images/items/1057.gif")]
         private static var ID1057:Class;
 
-        [Embed(source="embeddedAssets/images/items/3098.gif")]
+        [Embed(source="/embeddedAssets/images/items/3098.gif")]
         private static var ID3098:Class;
 
-        [Embed(source="embeddedAssets/images/items/3102.gif")]
+        [Embed(source="/embeddedAssets/images/items/3102.gif")]
         private static var ID3102:Class;
 
-        [Embed(source="embeddedAssets/images/items/2042.gif")]
+        [Embed(source="/embeddedAssets/images/items/2042.gif")]
         private static var ID2042:Class;
 
-        [Embed(source="embeddedAssets/images/items/3135.gif")]
+        [Embed(source="/embeddedAssets/images/items/3135.gif")]
         private static var ID3135:Class;
 
-        [Embed(source="embeddedAssets/images/items/1038.gif")]
+        [Embed(source="/embeddedAssets/images/items/1038.gif")]
         private static var ID1038:Class;
 
-        [Embed(source="embeddedAssets/images/items/3022.gif")]
+        [Embed(source="/embeddedAssets/images/items/3022.gif")]
         private static var ID3022:Class;
 
-        [Embed(source="embeddedAssets/images/items/3070.gif")]
+        [Embed(source="/embeddedAssets/images/items/3070.gif")]
         private static var ID3070:Class;
 
-        [Embed(source="embeddedAssets/images/items/3026.gif")]
+        [Embed(source="/embeddedAssets/images/items/3026.gif")]
         private static var ID3026:Class;
 
-        [Embed(source="embeddedAssets/images/items/3124.gif")]
+        [Embed(source="/embeddedAssets/images/items/3124.gif")]
         private static var ID3124:Class;
 
-        [Embed(source="embeddedAssets/images/items/1004.gif")]
+        [Embed(source="/embeddedAssets/images/items/1004.gif")]
         private static var ID1004:Class;
 
-        [Embed(source="embeddedAssets/images/items/3117.gif")]
+        [Embed(source="/embeddedAssets/images/items/3117.gif")]
         private static var ID3117:Class;
 
-        [Embed(source="embeddedAssets/images/items/3100.gif")]
+        [Embed(source="/embeddedAssets/images/items/3100.gif")]
         private static var ID3100:Class;
 
-        [Embed(source="embeddedAssets/images/items/2004.gif")]
+        [Embed(source="/embeddedAssets/images/items/2004.gif")]
         private static var ID2004:Class;
 
-        [Embed(source="embeddedAssets/images/items/1027.gif")]
+        [Embed(source="/embeddedAssets/images/items/1027.gif")]
         private static var ID1027:Class;
 
-        [Embed(source="embeddedAssets/images/items/3046.gif")]
+        [Embed(source="/embeddedAssets/images/items/3046.gif")]
         private static var ID3046:Class;
 
-        [Embed(source="embeddedAssets/images/items/3071.gif")]
+        [Embed(source="/embeddedAssets/images/items/3071.gif")]
         private static var ID3071:Class;
 
-        [Embed(source="embeddedAssets/images/items/3154.gif")]
+        [Embed(source="/embeddedAssets/images/items/3154.gif")]
         private static var ID3154:Class;
 
-        [Embed(source="embeddedAssets/images/items/3123.gif")]
+        [Embed(source="/embeddedAssets/images/items/3123.gif")]
         private static var ID3123:Class;
 
-        [Embed(source="embeddedAssets/images/items/2044.gif")]
+        [Embed(source="/embeddedAssets/images/items/2044.gif")]
         private static var ID2044:Class;
 
-        [Embed(source="embeddedAssets/images/items/3111.gif")]
+        [Embed(source="/embeddedAssets/images/items/3111.gif")]
         private static var ID3111:Class;
 
-        [Embed(source="embeddedAssets/images/items/3078.gif")]
+        [Embed(source="/embeddedAssets/images/items/3078.gif")]
         private static var ID3078:Class;
 
-        [Embed(source="embeddedAssets/images/items/2037.gif")]
+        [Embed(source="/embeddedAssets/images/items/2037.gif")]
         private static var ID2037:Class;
 
-        [Embed(source="embeddedAssets/images/items/3145.gif")]
+        [Embed(source="/embeddedAssets/images/items/3145.gif")]
         private static var ID3145:Class;
 
-        [Embed(source="embeddedAssets/images/items/3105.gif")]
+        [Embed(source="/embeddedAssets/images/items/3105.gif")]
         private static var ID3105:Class;
 
-        [Embed(source="embeddedAssets/images/items/3138.gif")]
+        [Embed(source="/embeddedAssets/images/items/3138.gif")]
         private static var ID3138:Class;
 
-        [Embed(source="embeddedAssets/images/items/1052.gif")]
+        [Embed(source="/embeddedAssets/images/items/1052.gif")]
         private static var ID1052:Class;
 
-        [Embed(source="embeddedAssets/images/items/3047.gif")]
+        [Embed(source="/embeddedAssets/images/items/3047.gif")]
         private static var ID3047:Class;
 
-        [Embed(source="embeddedAssets/images/items/3093.gif")]
+        [Embed(source="/embeddedAssets/images/items/3093.gif")]
         private static var ID3093:Class;
 
-        [Embed(source="embeddedAssets/images/items/3096.gif")]
+        [Embed(source="/embeddedAssets/images/items/3096.gif")]
         private static var ID3096:Class;
 
-        [Embed(source="embeddedAssets/images/items/1042.gif")]
+        [Embed(source="/embeddedAssets/images/items/1042.gif")]
         private static var ID1042:Class;
 
-        [Embed(source="embeddedAssets/images/items/3044.gif")]
+        [Embed(source="/embeddedAssets/images/items/3044.gif")]
         private static var ID3044:Class;
 
-        [Embed(source="embeddedAssets/images/items/3143.gif")]
+        [Embed(source="/embeddedAssets/images/items/3143.gif")]
         private static var ID3143:Class;
 
-        [Embed(source="embeddedAssets/images/items/3077.gif")]
+        [Embed(source="/embeddedAssets/images/items/3077.gif")]
         private static var ID3077:Class;
 
-        [Embed(source="embeddedAssets/images/items/3035.gif")]
+        [Embed(source="/embeddedAssets/images/items/3035.gif")]
         private static var ID3035:Class;
 
-        [Embed(source="embeddedAssets/images/items/3037.gif")]
+        [Embed(source="/embeddedAssets/images/items/3037.gif")]
         private static var ID3037:Class;
 
-        [Embed(source="embeddedAssets/images/items/3132.gif")]
+        [Embed(source="/embeddedAssets/images/items/3132.gif")]
         private static var ID3132:Class;
 
-        [Embed(source="embeddedAssets/images/items/3041.gif")]
+        [Embed(source="/embeddedAssets/images/items/3041.gif")]
         private static var ID3041:Class;
 
-        [Embed(source="embeddedAssets/images/items/3108.gif")]
+        [Embed(source="/embeddedAssets/images/items/3108.gif")]
         private static var ID3108:Class;
 
-        [Embed(source="embeddedAssets/images/items/3116.gif")]
+        [Embed(source="/embeddedAssets/images/items/3116.gif")]
         private static var ID3116:Class;
 
-        [Embed(source="embeddedAssets/images/items/1026.gif")]
+        [Embed(source="/embeddedAssets/images/items/1026.gif")]
         private static var ID1026:Class;
 
-        [Embed(source="embeddedAssets/images/items/3086.gif")]
+        [Embed(source="/embeddedAssets/images/items/3086.gif")]
         private static var ID3086:Class;
 
-        [Embed(source="embeddedAssets/images/items/1028.gif")]
+        [Embed(source="/embeddedAssets/images/items/1028.gif")]
         private static var ID1028:Class;
 
-        [Embed(source="embeddedAssets/images/items/2038.gif")]
+        [Embed(source="/embeddedAssets/images/items/2038.gif")]
         private static var ID2038:Class;
 
-        [Embed(source="embeddedAssets/images/items/3146.gif")]
+        [Embed(source="/embeddedAssets/images/items/3146.gif")]
         private static var ID3146:Class;
 
-        [Embed(source="embeddedAssets/images/items/3069.gif")]
+        [Embed(source="/embeddedAssets/images/items/3069.gif")]
         private static var ID3069:Class;
 
-        [Embed(source="embeddedAssets/images/items/1001.gif")]
+        [Embed(source="/embeddedAssets/images/items/1001.gif")]
         private static var ID1001:Class;
 
-        [Embed(source="embeddedAssets/images/items/3144.gif")]
+        [Embed(source="/embeddedAssets/images/items/3144.gif")]
         private static var ID3144:Class;
 
-        [Embed(source="embeddedAssets/images/items/1033.gif")]
+        [Embed(source="/embeddedAssets/images/items/1033.gif")]
         private static var ID1033:Class;
 
-        [Embed(source="embeddedAssets/images/items/3136.gif")]
+        [Embed(source="/embeddedAssets/images/items/3136.gif")]
         private static var ID3136:Class;
 
-        [Embed(source="embeddedAssets/images/items/3027.gif")]
+        [Embed(source="/embeddedAssets/images/items/3027.gif")]
         private static var ID3027:Class;
 
-        [Embed(source="embeddedAssets/images/items/3110.gif")]
+        [Embed(source="/embeddedAssets/images/items/3110.gif")]
         private static var ID3110:Class;
 
-        [Embed(source="embeddedAssets/images/items/3020.gif")]
+        [Embed(source="/embeddedAssets/images/items/3020.gif")]
         private static var ID3020:Class;
 
 
