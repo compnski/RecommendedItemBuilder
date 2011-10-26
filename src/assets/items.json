@@ -1,0 +1,884 @@
+[
+
+<items>
+<item>
+ <name>Abyssal Scepter</name>
+ <id>3007</id>
+ <description/>
+ <components>
+  <component id=3007/>
+  <component id=3008/>
+ </components>
+	{
+	    "name": "Abyssal Scepter",
+	    "description": "+70 Ability Power +57 Magic Resistance UNIQUE Aura: Reduces the Magic Resist of nearby enemy champions by 20",
+	    "cost": 1050,
+	    "image": "abyssal_scepter",
+	    "components": ["Blasting Wand", "Negatron Cloak"],
+	    "categories": ["Ability Power", "Magic Resist", "Magic Penetration", "Aura"]
+	},
+	{
+	    "name": "Aegis of the Legion",
+	    "description": "+270 Health +18 Armor +24 Magic Resist and a UNIQUE Aura: +12 Armor / +15 Magic Resistance / +8 damage to nearby allied units",
+	    "cost": 750,
+	    "image": "aegis_of_the_legion",
+	    "components": ["Ruby Crystal", "Null-Magic Mantle", "Cloth Armor"],
+	    "categories": ["Health", "Armor", "Magic Resist", "Damage", "Aura"]
+	},
+	{
+	    "name": "Amplifying Tome",
+	    "description": "+20 Ability Power",
+	    "cost": 435, 
+	    "image": "amplifying_tome",
+	    "components": [],
+	    "categories": ["Ability Power"]
+	},
+	{
+	    "name": "Archangel's Staff",
+	    "description": "+400 Mana +25 Mana Regen per 5 sec +45 Ability Power Passive: 3% of your Max Mana is converted to Ability Power. UNIQUE Passive: Each time your Champion uses an Ability their Maximum Mana will increase by 4 Mana. This effect has a 3 second cooldown. Bonus caps at 1000 mana.",
+	    "cost": 1000, 
+	    "image": "archangels_staff",
+	    "components": ["Tear of the Goddess", "Blasting Wand"],
+	    "categories": ["Ability Power", "Mana", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "Atma's Impaler",
+	    "description": "+45 Armor +18% Critical Strike UNIQUE Passive: Physical attacks deal an additional 2% of your max Health in damage",
+	    "cost": 825, 
+	    "image": "atmas_impaler",
+	    "components": ["Chain Vest", "Cloak of Agility"],
+	    "categories": ["Armor", "Damage", "Critical Strike", "Passive"]
+	},
+	{
+	    "name": "Avarice Blade",
+	    "description": "+12% Critical Strike Passive: Gain an additional 5 Gold every 10 seconds",
+	    "cost": 350, 
+	    "image": "avarice_blade",
+	    "components": ["Brawler's Gloves"],
+	    "categories": ["Critical Strike", "Gold", "Passive"]
+	},
+	{
+	    "name": "B.F. Sword",
+	    "description": "+50 Attack Damage",
+	    "cost": 1850, 
+	    "image": "bf_sword",
+	    "components": [],
+	    "categories": ["Damage"]
+	},
+	{
+	    "name": "Banshee's Veil",
+	    "description": "+450 Health +400 Mana +57 Magic Resist UNIQUE Passive: Blocks one negative spell every 30 seconds",
+	    "cost": 650, 
+	    "image": "banshees_veil",
+	    "components": ["Negatron Cloak", "Catalyst the Protector"],
+	    "categories": ["Health", "Magic Resist", "Mana", "Passive"]
+	},
+	{
+	    "name": "Beserker's Greaves",
+	    "description": "+25% Attack Speed UNIQUE Passive: Enhanced Movement 2",
+	    "cost": 150, 
+	    "image": "berserkers_greaves",
+	    "components": ["Boots of Speed", "Dagger"],
+	    "categories": ["Attack Speed", "Movement", "Passive"]
+	},
+	{
+	    "name": "Bilgewater Cutlass",
+	    "description": "+35 Attack Damage +15% Life Steal UNIQUE Active: Deals 150 magic damage and slows the target champion by 50% for 3 seconds (400 range). 60 second cooldown.",
+	    "cost": 400,
+	    "image": "bilgewater_cutlass",
+	    "components": [ "Pickaxe", "Vampiric Scepter" ],
+	    "categories": [ "Damage", "Life Steal", "Active" ]
+	},
+	{
+	    "name": "Blasting Wand",
+	    "description": "+40 Ability Power",
+	    "cost": 860, 
+	    "image": "blasting_wand",
+	    "components": [],
+	    "categories": ["Ability Power"]
+	},
+	{
+	    "name": "Boots of Mobility",
+	    "description": "UNIQUE Passive: Enhanced Movement 2 Passive: When out of combat for 5 seconds the effect of these boots is increased to Enhanced Movement 5",
+	    "cost": 650, 
+	    "image": "boots_of_mobility",
+	    "components": ["Boots of Speed"],
+	    "categories": ["Movement", "Passive"]
+	},
+	{
+	    "name": "Boots of Speed",
+	    "description": "UNIQUE Passive: Enhanced Movement 1",
+	    "cost": 350, 
+	    "image": "boots_of_speed",
+	    "components": [],
+	    "categories": ["Movement", "Passive"]
+	},
+	{
+	    "name": "Boots of Swiftness",
+	    "description": "UNIQUE Passive: Enhanced Movement 3",
+	    "cost": 650, 
+	    "image": "boots_of_swiftness",
+	    "components": ["Boots of Speed"],
+	    "categories": ["Movement", "Passive"]
+	},
+	{
+	    "name": "Brawler's Gloves",
+	    "description": "+8% Critical Strike",
+	    "cost": 400, 
+	    "image": "brawlers_gloves",
+	    "components": [],
+	    "categories": ["Critical Strike"]
+	},
+	{
+	    "name": "Catalyst the Protector",
+	    "description": "+290 Health +325 Mana Passive: Restores 300 Health and 250 Mana upon leveling up",
+	    "cost": 450, 
+	    "image": "catalyst_the_protector",
+	    "components": ["Ruby Crystal", "Sapphire Crystal"],
+	    "categories": ["Health", "Mana", "Passive"]
+	},
+	{
+	    "name": "Chain Vest",
+	    "description": "+45 Armor",
+	    "cost": 700, 
+	    "image": "chain_vest",
+	    "components": [],
+	    "categories": ["Armor"]
+	},
+	{
+	    "name": "Chalice of Harmony",
+	    "description": "+30 Magic Resistance +7.5 Mana Regen per 5 sec Unique Passive: Increases your Mana Regen by 1% per 1% Mana you are missing",
+	    "cost": 100, 
+	    "image": "chalice_of_harmony",
+	    "components": ["Meki Pendant", "Null-Magic Mantle"],
+	    "categories": ["Magic Resist", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "Cloak of Agility",
+	    "description": "+18% Critical Strike",
+	    "cost": 880, 
+	    "image": "cloak_of_agility",
+	    "components": [],
+	    "categories": ["Critical Strike"]
+	},
+	{
+	    "name": "Cloth Armor",
+	    "description": "+18 Armor",
+	    "cost": 300, 
+	    "image": "cloth_armor",
+	    "components": [],
+	    "categories": ["Armor"]
+	},
+	{
+	    "name": "Dagger",
+	    "description": "+15% Attack Speed",
+	    "cost": 420, 
+	    "image": "dagger",
+	    "components": [],
+	    "categories": ["Attack Speed"]
+	},
+	{
+	    "name": "Deathfire Grasp",
+	    "description": "+60 Ability Power +10 Mana Regen per 5 Sec UNIQUE Passive: Reduces ability cooldowns by 15%.  UNIQUE Active: Deals magic damage to target champion equal to 30% of their current health (+3.5% per 100 Ability Power) with a minimum of 200 damage.  1 minute cooldown",
+	    "cost": 600, 
+	    "image": "deathfire_grasp",
+	    "components": ["Kage's Lucky Pick", "Fiendish Codex"],
+	    "categories": ["Ability Power", "Cooldown Reduction", "Mana Regen", "Active", "Passive"]
+	},
+	{
+	    "name": "Doran's Blade",
+	    "description": "+120 Health +6 Damage +4% Lifesteal",
+	    "cost": 435, 
+	    "image": "dorans_blade",
+	    "components": [],
+	    "categories": ["Health", "Damage", "Life Steal"]
+	},
+	{
+	    "name": "Doran's Ring",
+	    "description": "+120 Health +5 Mana Regen per 5 sec +10 Ability Power",
+	    "cost": 435, 
+	    "image": "dorans_ring",
+	    "components": [],
+	    "categories": ["Health", "Ability Power", "Mana Regen"]
+	},
+	{
+	    "name": "Doran's Shield",
+	    "description": "+120 Health +9 Armor +8 Health Regeneration per 5",
+	    "cost": 435, 
+	    "image": "dorans_shield",
+	    "components": [],
+	    "categories": ["Health", "Health Regen", "Armor"]
+	},
+	{
+	    "name": "Elixir of Agility",
+	    "description": "Click to Consume: Grants 20-35% Attack Speed, based on champion level, and 15% Critial Strike for 4 minutes",
+	    "cost": 300, 
+	    "image": "elixir_of_agility",
+	    "components": [],
+	    "categories": ["Critical Strike", "Attack Speed", "Consumables"]
+	},
+	{
+	    "name": "Elixir of Brilliance",
+	    "description": "Click to Consume: Grants 31-65 Ability Power, based on your champion's level, and reduces cooldowns by 10% for 4 minutes",
+	    "cost": 300, 
+	    "image": "elixir_of_brilliance",
+	    "components": [],
+	    "categories": ["Ability Power", "Cooldown Reduction", "Consumables"]
+	},
+	{
+	    "name": "Elixir of Fortitude",
+	    "description": "Click to Consume: Grants 230-400 Health and 11-28 Attack Damage (based on champion level) for 4 minutes",
+	    "cost": 300, 
+	    "image": "elixir_of_fortitude",
+	    "components": [],
+	    "categories": ["Health", "Damage", "Consumables"]
+	},
+	{
+	    "name": "Emblem of Valour",
+	    "description": "+17% Lifesteal UNIQUE Aura: Nearby allied Champions gain 10 Health Regen per 5 sec",
+	    "cost": 100, 
+	    "image": "emblem_of_valour",
+	    "components": ["Vampiric Scepter", "Rejuvenation Bead"],
+	    "categories": ["Health Regen", "Life Steal", "Aura"]
+	},
+	{
+	    "name": "Executioner's Calling",
+	    "description": "+18% Lifesteal +15% Critical Strike Chance UNIQUE Passive: On hit, you cause 4 damage per second for 8 seconds.  UNIQUE Active: Inflicts target enemy champion with Grievous Wound, causing 50% reduced healing for 8 seconds.  20 second cooldown.",
+	    "cost": 500,
+	    "image": "executioners_calling",
+	    "components": ["Brawler's Gloves", "Vampiric Scepter"],
+	    "categories": ["Critical Strike", "Life Steal", "Passive", "Active"]
+	},
+	{
+	    "name": "Faerie Charm",
+	    "description": "+3 Mana Regen per 5 sec",
+	    "cost": 180,
+	    "image": "faerie_charm",
+	    "components": [],
+	    "categories": ["Mana Regen"]
+	},
+	{
+	    "name": "Fiendish Codex",
+	    "description": "+30 Ability Power +7 Mana Regeneration per 5 UNIQUE Passive: Reduces ability cooldowns by 10%",
+	    "cost": 420,
+	    "image": "fiendish_codex",
+	    "components": ["Meki Pendant", "Amplifying Tome"],
+	    "categories": ["Ability Power", "Cooldown Reduction", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "Force of Nature",
+	    "description": "+76 Magic Resist +40 Health Regen per 5 sec +8% Movement Speed UNIQUE Passive: Restores 0.35% of your champion's health every second",
+	    "cost": 1000, 
+	    "image": "force_of_nature",
+	    "components": ["Regrowth Pendant", "Regrowth Pendant", "Negatron Cloak"],
+	    "categories": ["Magic Resist", "Health Regen", "Movement", "Passive"]
+	},
+	{
+	    "name": "Frozen Heart",
+	    "description": "+99 Armor +500 Mana UNIQUE Passive: Reduces ability cooldowns by 25% and reduces the attack speed of nearby enemies by 20%",
+	    "cost": 800,
+	    "image": "frozen_heart",
+	    "components": ["Cloth Armor", "Cloth Armor", "Glacial Shroud"],
+	    "categories": ["Armor", "Cooldown Reduction", "Mana", "Passive", "Aura"]
+	},
+	{
+	    "name": "Frozen Mallet",
+	    "description": "+700 Health +20 Attack Damage UNIQUE Passive: Physical attacks reduce your target's Movement Speed for 2.5 seconds",
+	    "cost": 825,
+	    "image": "frozen_mallet",
+	    "components": ["Phage", "Giant's Belt"],
+	    "categories": ["Health", "Damage", "Passive"]
+	},
+	{
+	    "name": "Giant's Belt",
+	    "description": "+430 Health",
+	    "cost": 1110,
+	    "image": "giants_belt",
+	    "components": [],
+	    "categories": ["Health"]
+	},
+	{
+	    "name": "Glacial Shroud",
+	    "description": "+425 Mana +45 Armor UNIQUE Passive: Reduces ability cooldowns by 20%",
+	    "cost": 575,
+	    "image": "glacial_shroud",
+	    "components": ["Sapphire Crystal", "Chain Vest"],
+	    "categories": ["Armor", "Cooldown Reduction", "Mana", "Passive"]
+	},
+	{
+	    "name": "Guardian Angel",
+	    "description": "+68 Armor +38 Magic Resistance UNIQUE Passive: Revives your Champion upon death, restoring 750 Health and 375 Mana, this effect can only occur once every 5 minutes",
+	    "cost": 1200, 
+	    "image": "guardian_angel",
+	    "components": ["Null-Magic Mantle", "Cloth Armor", "Chain Vest"],
+	    "categories": ["Magic Resist", "Armor", "Passive"]
+	},
+	{
+	    "name": "Guinsoo's Rageblade",
+	    "description": "+35 Attack Damage +45 Ability Power Passive: On attack or spell cast, increases your Attack Speed by 4% and Ability Power by 6.  Lasts 5 seconds (stacks up to 8 times)",
+	    "cost": 400, 
+	    "image": "guinsoos_rageblade",
+	    "components": ["Blasting Wand", "Pickaxe"],
+	    "categories": ["Damage", "Attack Speed", "Ability Power", "Passive"]
+	},
+	{
+	    "name": "Haunting Guise",
+	    "description": "+20 Ability Power +180 Health UNIQUE Passive: +20 Magic Penetration",
+	    "cost": 575,
+	    "image": "haunting_guise",
+	    "components": ["Ruby Crystal", "Amplifying Tome"],
+	    "categories": ["Ability Power", "Health", "Magic Penetration", "Passive"]
+	},
+	{
+	    "name": "Health Potion",
+	    "description": "Click to Consume: Restores 200 Health over 20 seconds",
+	    "cost": 35, 
+	    "image": "health_potion",
+	    "components": [],
+	    "categories": ["Consumables"]
+	},
+	{
+	    "name": "Heart of Gold",
+	    "description": "+200 Health +27 Armor  Passive: Generates 5 Gold every 10 seconds",
+	    "cost": 200, 
+	    "image": "heart_of_gold",
+	    "components": ["Ruby Crystal", "Cloth Armor"],
+	    "categories": ["Health", "Armor", "Gold", "Passive"]
+	},
+	{
+	    "name": "Hextech Gunblade",
+	    "description": "+60 Attack Damage +75 Ability Power +15% Life Steal +13% Spell Vamp UNIQUE Active: Deals 300 magic damage and slows the target champion by 50% for 3 seconds (700 range). 60 second cooldown.",
+	    "cost": 600,
+	    "image": "hextech_gunblade",
+	    "components": [ "Bilgewater Cutlass", "Hextech Revolver" ],
+	    "categories": [ "Damage", "Ability Power", "Life Steal", "Spell Vamp", "Active" ]
+	},
+	{
+	    "name": "Hextech Revolver",
+	    "description": "+40 Ability Power +10% Spell Vamp",
+	    "cost": 330,
+	    "image": "hextech_revolver",
+	    "components": [ "Amplifying Tome", "Amplifying Tome" ],
+	    "categories": [ "Ability Power", "Spell Vamp" ]
+	},
+	{
+	    "name": "Infinity Edge",
+	    "description": "+80 Attack Damage +20% Critical Strike UNIQUE Passive: Critical hits now deal 250% damage instead of 200%",
+	    "cost": 375, 
+	    "image": "infinity_edge",
+	    "components": ["B.F. Sword", "Pickaxe", "Cloak of Agility"],
+	    "categories": ["Damage", "Critical Strike", "Passive"]
+	},
+	{
+	    "name": "Innervating Locket",
+	    "description": "+430 Health +450 Mana UNIQUE Aura: Restores 20 health and 9 Mana to nearby allies every 5 seconds. UNIQUE Passive: Reduces ability cooldowns by 10%.  UNIQUE Passive: Using an ability grants 50 health and 20 mana to you over 2 seconds. This effect has a 3 second cooldown",
+	    "cost": 450, 
+	    "image": "innervating_locket",
+	    "components": ["Catalyst the Protector", "Mana Manipulator"],
+	    "categories": ["Health", "Mana", "Mana Regen", "Aura", "Passive"]
+	},
+	{
+	    "name": "Kage's Lucky Pick",
+	    "description": "+25 Ability Power Passive: Gain an additional 5 Gold every 10 seconds",
+	    "cost": 330, 
+	    "image": "kages_lucky_pick",
+	    "components": ["Amplifying Tome"],
+	    "categories": ["Ability Power", "Gold", "Passive"]
+	},
+	{
+	    "name": "Kindlegem",
+	    "description": "+200 Health UNIQUE Passive: Reduces ability cooldowns by 10%",
+	    "cost": 425,
+	    "image": "kindlegem",
+	    "components": ["Ruby Crystal"],
+	    "categories": ["Health", "Cooldown Reduction", "Passive"]
+	},
+	{
+	    "name": "Last Whisper",
+	    "description": "+10 Attack Damage +40% Attack Speed UNIQUE Passive: Attacks penetrate 40% of the defender's armor",
+	    "cost": 500, 
+	    "image": "last_whisper",
+	    "components": ["Recurve Bow", "Long Sword"],
+	    "categories": ["Damage", "Attack Speed", "Armor Penetration", "Passive"]
+	},
+	{
+	    "name": "Leviathan",
+	    "description": "+180 Health UNIQUE Passive: Your champion gains 32 health per stack, receiving 2 stacks for a kill or 1 stack for an assist.  This effect can stack 20 times; you lose a third of your stacks if you die.  At 20 stacks, your champion takes 15% less damage.",
+	    "cost": 800,
+	    "image": "leviathan",
+	    "components": ["Ruby Crystal"],
+	    "categories": ["Health", "Passive"]
+	},
+	{
+	    "name": "Lich Bane",
+	    "description": "+350 Mana +80 Ability Power +30 Magic Resist +7% Movement Speed UNIQUE Passive: 100% chance when an ability is used that your next physical attack deals an additional 100% of your Ability Power in damage. This effect has a 2 second cooldown",
+	    "cost": 950,
+	    "image": "lich_bane",
+	    "components": ["Null-Magic Mantle", "Sheen", "Blasting Wand"],
+	    "categories": ["Magic Resist", "Damage", "Ability Power", "Mana", "Movement", "Passive"]
+	},
+	{
+	    "name": "Long Sword",
+	    "description": "+10 Attack Damage",
+	    "cost": 415, 
+	    "image": "long_sword",
+	    "components": [],
+	    "categories": ["Damage"]
+	},
+	{
+	    "name": "Madred's Bloodrazor",
+	    "description": "+30 Attack Damage +40% Attack Speed +25 Armor Passive: On hit, deals Magic Damage equal to 4% of the target's maximum Health",
+	    "cost": 775, 
+	    "image": "madreds_bloodrazor",
+	    "components": ["Madred's Razors", "Pickaxe", "Recurve Bow"],
+	    "categories": ["Armor", "Damage", "Attack Speed", "Passive"]
+	},
+	{
+	    "name": "Madred's Razors",
+	    "description": "+15 Damage +23 Armor UNIQUE Passive: 15% chance on attack to deal 500 damage to a minion",
+	    "cost": 285, 
+	    "image": "madreds_razors",
+	    "components": ["Long Sword", "Cloth Armor"],
+	    "categories": ["Armor", "Damage", "Passive"]
+	},
+	{
+	    "name": "Malady",
+	    "description": "+15% Lifesteal +50% Attack Speed UNIQUE Passive: Your physical attacks infect your target, causing them to take 5 bonus damage (stacks up to 6 times) each time they are attacked by any champion",
+	    "cost": 600, 
+	    "image": "malady",
+	    "components": ["Dagger", "Dagger", "Vampiric Scepter"],
+	    "categories": ["Damage", "Attack Speed", "Life Steal", "Passive"]
+	},
+	{
+		"name": "Manamune",
+		"description": "+350 Mana + 7 Mana Regen per 5 sec +20 Attack Damage UNIQUE Passive: 1.5% of your max mana is converted to attack damage.  UNIQUE Passive: Each time you attack, you gain one maximum mana (3 second cooldown).  Each time you use an ability, you gain 4 maximum mana (3 second cooldown).  Bous capst at 1000 mana",
+		"cost": 700,
+		"image": "manamune",
+		"components": ["Tear of the Goddess", "Long Sword"],
+		"categories": ["Mana", "Mana Regen", "Damage", "Passive", "Active"]
+	},
+	{
+	    "name": "Mana Manipulator",
+	    "description": "UNIQUE Aura: Restores 7.2 Mana per 5 seconds to nearby friendly Champions",
+	    "cost": 115, 
+	    "image": "mana_manipulator",
+	    "components": ["Faerie Charm", "Faerie Charm"],
+	    "categories": ["Mana Regen", "Aura"]
+	},
+	{
+	    "name": "Mana Potion",
+	    "description": "Click to Consume: Restores 100 Mana over 20 seconds",
+	    "cost": 40, 
+	    "image": "mana_potion",
+	    "components": [],
+	    "categories": ["Consumables"]
+	},
+	{
+	    "name": "Mejai's Soulstealer",
+	    "description": "+20 Ability Power UNIQUE Passive: Your champion gains 8 ability power per stack, receiving 2 stacks for a kill or 1 stack for an assist.  This effect can stack 20 times; you lose a third of your stacks if you die.  At 20 stacks, your champion's cooldowns are reduced by 15%.",
+	    "cost": 800, 
+	    "image": "mejais_soulstealer",
+	    "components": ["Amplifying Tome"],
+	    "categories": ["Ability Power", "Cooldown Reduction", "Passive"]
+	},
+	{
+	    "name": "Meki Pendant",
+	    "description": "+7 Mana regen per 5 sec",
+	    "cost": 390, 
+	    "image": "meki_pendant",
+	    "components": [],
+	    "categories": ["Mana Regen"]
+	},
+	{
+	    "name": "Mercury's Treads",
+	    "description": "+25 Magic Resist UNIQUE Passive: Enhanced Movement 2  Reduces the duration of Movement inhibiting effects by 35%.",
+	    "cost": 450,
+	    "image": "mercurys_treads",
+	    "components": ["Boots of Speed", "Null-Magic Mantle"],
+	    "categories": ["Magic Resist", "Movement", "Passive"]
+	},
+	{
+	    "name": "Nashor's Tooth",
+	    "description": "+50% Attack Speed +55 Ability Power +10 Mana Regeneration per 5 UNIQUE Passive: Reduces ability cooldowns by 25%",
+	    "cost": 500,
+	    "image": "nashors_tooth",
+	    "components": ["Stinger", "Fiendish Codex"],
+	    "categories": ["Attack Speed", "Ability Power", "Cooldown Reduction", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "Needlessly Large Rod",
+	    "description": "+80 Ability Power",
+	    "cost": 1600, 
+	    "image": "needlessly_large_rod",
+	    "components": [],
+	    "categories": [ "Ability Power" ]
+	},
+	{
+	    "name": "Negatron Cloak",
+	    "description": "+48 Magic Resistance",
+	    "cost": 740, 
+	    "image": "negatron_cloak",
+	    "components": [],
+	    "categories": ["Magic Resist"]
+	},
+	{
+	    "name": "Ninja Tabi",
+	    "description": "+25 Armor +12% Dodge Chance UNIQUE Passive: Enhanced Movement 2",
+	    "cost": 200,
+	    "image": "ninja_tabi",
+	    "components": ["Boots of Speed", "Cloth Armor"],
+	    "categories": ["Armor", "Dodge", "Movement", "Passive"]
+	},
+	{
+	    "name": "Null-Magic Mantle",
+	    "description": "+24 Magic Resistance",
+	    "cost": 400, 
+	    "image": "null_magic_mantle",
+	    "components": [],
+	    "categories": ["Magic Resist"]
+	},
+	{
+	    "name": "Oracle's Elixir",
+	    "description": "Click to Consume: Gives your Champion stealth detection until you die.",
+	    "cost": 400, 
+	    "image": "oracles_elixir",
+	    "components": [],
+	    "categories": ["Consumables"]
+	},
+	{
+	    "name": "Phage",
+	    "description": "+225 Health +18 Attack Damage Passive: 25% chance on hit to reduce your target's Movement Speed by 30% for 2.5 seconds.",
+	    "cost": 425, 
+	    "image": "phage",
+	    "components": ["Ruby Crystal", "Long Sword"],
+	    "categories": ["Health", "Damage", "Passive"]
+	},
+	{
+	    "name": "Phantom Dancer",
+	    "description": "+45% Attack Speed +30% Critical Strike +20% Dodge Chance +15% Movement Speed",
+	    "cost": 900,
+	    "image": "phantom_dancer",
+	    "components": ["Cloak of Agility", "Zeal", "Dagger"],
+	    "categories": ["Dodge", "Critical Strike", "Attack Speed", "Movement"]
+	},
+	{
+	    "name": "Philosopher's Stone",
+	    "description": "+22.5 Health Regen per 5 sec +10 Mana Regen per 5 sec Passive: Gain an additional 5 Gold every 10 seconds.",
+	    "cost": 185, 
+	    "image": "philosophers_stone",
+	    "components": ["Faerie Charm", "Regrowth Pendant"],
+	    "categories": ["Health Regen", "Mana Regen", "Gold", "Passive"]
+	},
+	{
+	    "name": "Pickaxe",
+	    "description": "+25 Attack Damage",
+	    "cost": 975, 
+	    "image": "pickaxe",
+	    "components": [],
+	    "categories": ["Damage"]
+	},
+	{
+	    "name": "Quicksilver Sash",
+	    "description": "+48 Magic Resistance Active: Removes all debuffs from your character.  120 second cooldown.",
+	    "cost": 700,
+	    "image": "quicksilver_sash",
+	    "components": ["Negatron Cloak"],
+	    "categories": ["Magic Resist", "Active"]
+	},
+	{
+		"name": "Randuin's Omen",
+		"description": "+300 Health +90 Armor +25 Health Regen per 5 sec. UNIQUE Passive: 15% Cooldown Reduction and 20% chance on being hit to slow the attacker's movement and attack speeds by 25% for 3 seconds. UNIQUE Active: Slows movement speeds and attack speeds of surrounding units by 35% for 1 second + 0.5 seconds for each 100 Armor and Magic Resist. 60 second cooldown.",
+		"cost": 600, 
+		"image": "randuins_omen",
+		"components": ["Heart of Gold", "Warden's Mail"],
+		"categories": ["Health", "Armor", "Health Regen", "Cooldown Reduction", "Passive", "Active"]
+	},
+	{
+	    "name": "Recurve Bow",
+	    "description": "+40% Attack Speed",
+	    "cost": 1050, 
+	    "image": "recurve_bow",
+	    "components": [],
+	    "categories": ["Attack Speed"]
+	},
+	{
+	    "name": "Regrowth Pendant",
+	    "description": "+15 Health Regen per 5 sec",
+	    "cost": 350, 
+	    "image": "regrowth_pendant",
+	    "components": [],
+	    "categories": ["Health Regen"]
+	},
+	{
+	    "name": "Rejuvenation Bead",
+	    "description": "+8 Health Regen per 5 sec",
+	    "cost": 250, 
+	    "image": "rejuvenation_bead",
+	    "components": [],
+	    "categories": ["Health Regen"]
+	},
+	{
+	    "name": "Rod of Ages",
+	    "description": "+380 Health +425 Mana +50 Ability Power Passive: Your Champion gains 18 Health, 20 Mana, and 2 Ability Power every 1 min. Bonuses cap at +270 Health, +300 Mana, and +30 Ability Power.",
+	    "cost": 850, 
+	    "image": "rod_of_ages",
+	    "components": ["Catalyst the Protector", "Blasting Wand"],
+	    "categories": ["Health", "Ability Power", "Mana", "Passive"]
+	},
+	{
+	    "name": "Ruby Crystal",
+	    "description": "+180 Health",
+	    "cost": 475,
+	    "image": "ruby_crystal",
+	    "components": [],
+	    "categories": ["Health"]
+	},
+	{
+	    "name": "Rylai's Scepter",
+	    "description": "+500 Health +80 Ability Power Passive: Dealing spell damage slows the target's movement speed by 35% for 2 seconds (15% for multi-target spells).",
+	    "cost": 700,
+	    "image": "rylais_scepter",
+	    "components": ["Blasting Wand", "Amplifying Tome", "Giant's Belt"],
+	    "categories": ["Health", "Ability Power", "Passive"]
+	},
+	{
+	    "name": "Sapphire Crystal",
+	    "description": "+200 Mana",
+	    "cost": 400,
+	    "image": "sapphire_crystal",
+	    "components": [],
+	    "categories": ["Mana"]
+	},
+	{
+	    "name": "Sheen",
+	    "description": "+250 Mana +25 Ability Power UNIQUE Passive: 100% chance when an ability is used that your next physical attack deals 100% extra base damage. This effect has a 2 second cooldown.",
+	    "cost": 425,
+	    "image": "sheen",
+	    "components": ["Sapphire Crystal", "Amplifying Tome"],
+	    "categories": ["Damage", "Ability Power", "Mana", "Passive"]
+	},
+	{
+		"name": "Shurelya's Reverie",
+		"description": "+330 Health +25 Health Regen per 5 sec + 12 Mana Regen per 5 sec UNIQUE Passive: Reduces ability cooldowns by 15%  UNIQUE Active: Nearby champions gain 40% movement speed for 2 seconds (60 second cooldown)",
+		"cost": 500,
+		"image": "shurelyas_reverie",
+		"components": ["Kindlegem", "Philosopher's Stone"],
+		"categories": ["Health", "Health Regen", "Mana Regen", "Cooldown Reduction", "Passive", "Active"]
+	},
+	{
+	    "name": "Sight Ward",
+	    "description": "Click to Consume: Places an invisible ward with 1100 range sight.  Lasts 4.5 minutes, Max: 3 Stacks.",
+	    "cost": 90, 
+	    "image": "sight_ward",
+	    "components": [],
+	    "categories": ["Consumables"]
+	},
+	{
+	    "name": "Sorcerer's Shoes",
+	    "description": "+20 Magic Penetration UNIQUE Passive: Enhanced Movement 2",
+	    "cost": 750, 
+	    "image": "sorcerers_shoes",
+	    "components": ["Boots of Speed"],
+	    "categories": ["Magic Penetration", "Movement", "Passive"]
+	},
+	{
+	    "name": "Soul Shroud",
+	    "description": "+520 Health UNIQUE Aura: Gives nearby Champions 12 Mana per 5 and 15% reduced Cooldowns.",
+	    "cost": 700, 
+	    "image": "soul_shroud",
+	    "components": ["Mana Manipulator", "Giant's Belt"],
+	    "categories": ["Health", "Cooldown Reduction", "Mana Regen", "Aura"]
+	},
+	{
+	    "name": "Spirit Visage",
+	    "description": "+30 Magic Resistance +200 Health UNIQUE Passive: Reduces ability cooldowns by 12% and increases healing and regeneration  effects on yourself by 20%.",
+	    "cost": 375,
+	    "image": "spirit_visage",
+	    "components": ["Null-Magic Mantle", "Ruby Crystal"],
+	    "categories": ["Health", "Magic Resist", "Cooldown Reduction", "Passive"]
+	},
+	{
+	    "name": "Stark's Fervor",
+	    "description": "+20% Attack Speed UNIQUE Aura: Gives nearby allied Champions 20% Lifesteal, 20% Attack Speed, and 30 Health per 5 seconds regenerated. Reduces the Armor of nearby enemy champions by 20.",
+	    "cost": 700,
+	    "image": "starks_fervor",
+	    "components": ["Emblem of Valour", "Recurve Bow"],
+	    "categories": ["Health Regen", "Attack Speed", "Life Steal", "Armor Penetration", "Aura"]
+	},
+	{
+	    "name": "Stinger",
+	    "description": "+40% Attack Speed UNIQUE Passive: Reduces ability cooldowns by 10%.",
+	    "cost": 300,
+	    "image": "stinger",
+	    "components": ["Dagger", "Dagger"],
+	    "categories": ["Attack Speed", "Cooldown Reduction", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "Sunfire Cape",
+	    "description": "+450 Health +45 Armor Passive: Deals 40 Magic Damage a second to nearby enemies.",
+	    "cost": 700,
+	    "image": "sunfire_cape",
+	    "components": ["Chain Vest", "Giant's Belt"],
+	    "categories": ["Health", "Armor", "Passive"]
+	},
+	{
+	    "name": "Sword of the Divine",
+	    "description": "+55% Attack Speed UNIQUE Passive: Every fourth attack deals 100 extra Magic Damage.  UNIQUE Active: Your attacks cannot be dodged and you gain 30 Armor Penetration for 8 sec.",
+	    "cost": 700, 
+	    "image": "sword_of_the_divine",
+	    "components": ["Recurve Bow", "Dagger"],
+	    "categories": ["Attack Speed", "Armor Penetration", "Passive", "Active"]
+	},
+	{
+	    "name": "Sword of the Occult",
+	    "description": "+10 Attack Damage UNIQUE Passive: Your champion gains 5 damage per stack, receiving 2 stacks for a kill or 1 stack for an assist.  This effect can stack 20 times; you lose a third of your stacks if you die.  At 20 stacks, your champion's movement speed is increased 15%.",
+	    "cost": 954,
+	    "image": "sword_of_the_occult",
+	    "components": ["Long Sword"],
+	    "categories": ["Damage", "Critical Strike", "Movement", "Passive"]
+	},
+	{
+	    "name": "Tear of the Goddess",
+	    "description": "+350 Mana +7 Mana Regen per 5 sec UNIQUE Passive: Each time your Champion uses an Ability their Maximum Mana will increase by 4 Mana, up to a maximum of twice in a six second period; bonuses cap at +600 Mana; Bonuses cap at +1000 Mana",
+	    "cost": 205, 
+	    "image": "tear_of_the_goddess",
+	    "components": ["Meki Pendant", "Sapphire Crystal"],
+	    "categories": ["Mana", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "The Black Cleaver",
+	    "description": "+75 Attack Damage Passive: Physical attacks reduce your target's Armor by 12 for 5 seconds, (maximum 5 stacks).",
+	    "cost": 800, 
+	    "image": "the_black_cleaver",
+	    "components": ["Long Sword", "B.F. Sword"],
+	    "categories": ["Damage", "Armor Penetration", "Passive"]
+	},
+	{
+	    "name": "The Bloodthirster",
+	    "description": "+60 Attack Damage +15% Lifesteal Passive: Gain an additional 1 Physical Damage and 0.25% Lifesteal per kill. Maximum of +40 Damage and 10% Lifesteal.  Bonuses are lost upon death.",
+	    "cost": 900, 
+	    "image": "the_bloodthirster",
+	    "components": ["Vampiric Scepter", "B.F. Sword"],
+	    "categories": ["Damage", "Life Steal", "Passive"]
+	},
+	{
+	    "name": "The Brutalizer",
+	    "description": "+25 Attack Damage UNIQUE Passive: Reduces ability cooldowns by 10% and +15 Armor Penetration.",
+	    "cost": 507, 
+	    "image": "the_brutalizer",
+	    "components": ["Long Sword", "Long Sword"],
+	    "categories": ["Damage", "Armor Penetration", "Cooldown Reduction", "Passive"]
+	},
+	{
+	    "name": "Thornmail",
+	    "description": "+100 Armor UNIQUE Passive: On being hit by standard attacks, returns 30% of damage taken as magic damage.",
+	    "cost": 1000,
+	    "image": "thornmail",
+	    "components": ["Chain Vest", "Cloth Armor"],
+	    "categories": ["Armor", "Passive"]
+	},
+	{
+	    "name": "Tiamat",
+	    "description": "+42 Attack Damage +15 Health Regen per 5 sec +4 Mana Regen per 5 sec Passive: Your attacks Splash, dealing Physical Damage in a small area around the target.",
+	    "cost": 250,
+	    "image": "tiamat",
+	    "components": ["Pickaxe", "Long Sword", "Faerie Charm", "Rejuvenation Bead"],
+	    "categories": ["Health Regen", "Damage", "Mana Regen", "Passive"]
+	},
+	{
+	    "name": "Trinity Force",
+	    "description": "+20 Damage, +30 Ability Power, +25% Attack Speed, +12% Crit Chance, +12% Move Speed, +300 Health, +300 Mana, UNIQUE Passive: 25% chance on hit to slow the target by 35% for 2.5 seconds; on cast, increases your base Attack Damage by 150% for one attack.",
+	    "cost": 300, 
+	    "image": "trinity_force",
+	    "components": ["Zeal", "Sheen", "Phage"],
+	    "categories": ["Health", "Damage", "Critical Strike", "Attack Speed", "Ability Power", "Mana", "Movement", "Passive"]
+	},
+	{
+	    "name": "Vampiric Scepter",
+	    "description": "+12% Lifesteal",
+	    "cost": 450, 
+	    "image": "vampiric_scepter",
+	    "components": [],
+	    "categories": ["Life Steal"]
+	},
+	{
+	    "name": "Vision Ward",
+	    "description": "Click to Consume: Places an invisible ward with 1000 range Magical Sight (see invisible units).  Lasts 3.5 minutes, Max: 3 Stacks.",
+	    "cost": 150, 
+	    "image": "vision_ward",
+	    "components": [],
+	    "categories": ["Consumables"]
+	},
+	{
+	    "name": "Void Staff",
+	    "description": "+50 Ability Power +250 Mana UNIQUE Passive: Spells penetrate 40% of the defender's magic resist.",
+	    "cost": 1000, 
+	    "image": "void_staff",
+	    "components": ["Blasting Wand", "Amplifying Tome"],
+	    "categories": ["Magic Penetration", "Ability Power", "Mana", "Passive"]
+	},
+	{
+	    "name": "Warden's Mail",
+	    "description": "+60 Armor +25 Health Regen per 5 sec Passive: 20% chance on being hit to slow the attacker's movement and attack speeds by 35% for 3 seconds.",
+	    "cost": 400,
+	    "image": "wardens_mail",
+	    "components": ["Chain Vest", "Rejuvenation Bead"],
+	    "categories": ["Health Regen", "Armor", "Passive"]
+	},
+	{
+	    "name": "Warmog's Armor",
+	    "description": "+770 Health +30 Health Regen per 5 sec Passive: Permanently gain 3.6 Health and .5 Health Regen per 5 sec per minion kill. Champion kills grant 40 Health and 5 Health Regen per 5 sec. Bonuses cap at +450 Health, and +62.5 Health Regen per 5.",
+	    "cost": 1100, 
+	    "image": "warmogs_armor",
+	    "components": ["Giant's Belt", "Ruby Crystal", "Regrowth Pendant"],
+	    "categories": ["Health", "Health Regen", "Passive"]
+	},
+	{
+	    "name": "Will of the Ancients",
+	    "description": "+40 Ability Power UNIQUE Aura: Gives nearby allied champions +30 Ability Power and 15% spell vamp.",
+	    "cost": 765,
+	    "image": "will_of_the_ancients",
+	    "components": [ "Amplifying Tome", "Hextech Revolver" ],
+	    "categories": [ "Ability Power", "Spell Vamp", "Aura" ]
+	},
+	{
+	    "name": "Wit's End",
+	    "description": "+40% Attack Speed +32 Magic Resistance UNIQUE Passive: Physical Attacks remove up to 42 mana from the target and deal additional damage equal to the amount of mana removed.",
+	    "cost": 700,
+	    "image": "wits_end",
+	    "components": ["Recurve Bow", "Null-Magic Mantle"],
+	    "categories": ["Magic Resist", "Damage", "Attack Speed", "Passive"]
+	},
+	{
+		"name": "Wriggle's Lantern",
+		"description": "+23 Damage +30 Armor +14% Lifesteal UNIQUE Passive: 20% chance on attack to deal 500 damage to a minion UNIQUE Active: Places an invisible ward within 1100 range sight and lasts for 3 minutes.  3 minute cooldown.",
+		"cost": 75,
+		"image": "wriggles_lantern",
+		"components": [ "Vampiric Scepter", "Madred's Razors" ],
+		"categories": [ "Damage", "Armor", "Life Steal", "Passive", "Active" ]
+	},
+	{
+		"name": "Youmuu's Ghostblade",
+		"description": "+30 Attack Damage +15% Critical Chance UNIQUE Passive: +20 Armor Penetration 15% Cooldown Reduction UNIQUE Active: You gain +20% movespeed and +50% attack speed for 4 seconds. Attacking enemy units with melee attacks increases the duration by 2 to a maximum of 8 seconds. 60 second cooldown.",
+		"cost": 600, 
+		"image": "youmuus_ghostblade",
+		"components": ["Avarice Blade", "The Brutalizer"],
+		"categories": ["Damage", "Critical Strike", "Armor Penetration", "Cooldown Reduction", "Movement", "Attack Speed", "Passive", "Active"]
+	},
+	{
+	    "name": "Zeal",
+	    "description": "+20% Attack Speed +10% Critical Strike +8% Movement Speed",
+	    "cost": 375,
+	    "image": "zeal",
+	    "components": ["Dagger", "Brawler's Gloves"],
+	    "categories": ["Critical Strike", "Attack Speed", "Movement"]
+	},
+	{
+	    "name": "Zhonya's Ring",
+	    "description": "+120 Ability Power UNIQUE Passive: Increases Ability Power by 25% UNIQUE Active: Places your champion into Stasis for 2 seconds, rendering you invulnerable and untargetable but unable to take any actions. 90 sec cooldown.",
+	    "cost": 1000,
+	    "image": "zhonyas_ring",
+	    "components": ["Blasting Wand", "Needlessly Large Rod"],
+	    "categories": ["Ability Power", "Passive", "Active"]
+	}
+]

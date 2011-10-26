@@ -1,0 +1,1043 @@
+<items>
+<item>
+ <name>Atma's Impaler</name>
+ <id>3005</id>
+ <description>+45 Armor +18% Critical Strike UNIQUE Passive: Physical attacks deal an additional 2% of your max Health in damage</description>
+<components><itemId>1031</itemId>
+<itemId>1018</itemId></components>
+<componentOf/>
+ <cost>825</cost>
+</item>
+<item>
+ <name>The Brutalizer</name>
+ <id>3134</id>
+ <description>+25 Attack Damage UNIQUE Passive: Reduces ability cooldowns by 10% and +15 Armor Penetration.</description>
+<components><itemId>1036</itemId>
+<itemId>1036</itemId></components>
+<componentOf><itemId>3142</itemId></componentOf>
+ <cost>507</cost>
+</item>
+<item>
+ <name>Stark's Fervor</name>
+ <id>3050</id>
+ <description>+20% Attack Speed UNIQUE Aura: Gives nearby allied Champions 20% Lifesteal, 20% Attack Speed, and 30 Health per 5 seconds regenerated. Reduces the Armor of nearby enemy champions by 20.</description>
+<components><itemId>3097</itemId>
+<itemId>1043</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Cloak of Agility</name>
+ <id>1018</id>
+ <description>+18% Critical Strike</description>
+<components/>
+<componentOf><itemId>3005</itemId>
+<itemId>3031</itemId>
+<itemId>3046</itemId></componentOf>
+ <cost>880</cost>
+</item>
+<item>
+ <name>Warmog's Armor</name>
+ <id>3083</id>
+ <description>+770 Health +30 Health Regen per 5 sec Passive: Permanently gain 3.6 Health and .5 Health Regen per 5 sec per minion kill. Champion kills grant 40 Health and 5 Health Regen per 5 sec. Bonuses cap at +450 Health, and +62.5 Health Regen per 5.</description>
+<components><itemId>1011</itemId>
+<itemId>1028</itemId>
+<itemId>1007</itemId></components>
+<componentOf/>
+ <cost>1100</cost>
+</item>
+<item>
+ <name>Abyssal Scepter</name>
+ <id>3001</id>
+ <description>+70 Ability Power +57 Magic Resistance UNIQUE Aura: Reduces the Magic Resist of nearby enemy champions by 20</description>
+<components><itemId>1026</itemId>
+<itemId>1057</itemId></components>
+<componentOf/>
+ <cost>1050</cost>
+</item>
+<item>
+ <name>Sheen</name>
+ <id>3057</id>
+ <description>+250 Mana +25 Ability Power UNIQUE Passive: 100% chance when an ability is used that your next physical attack deals 100% extra base damage. This effect has a 2 second cooldown.</description>
+<components><itemId>1027</itemId>
+<itemId>1052</itemId></components>
+<componentOf><itemId>3100</itemId>
+<itemId>3078</itemId></componentOf>
+ <cost>425</cost>
+</item>
+<item>
+ <name>Quicksilver Sash</name>
+ <id>3140</id>
+ <description>+48 Magic Resistance Active: Removes all debuffs from your character.  120 second cooldown.</description>
+<components><itemId>1057</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Warden's Mail</name>
+ <id>3082</id>
+ <description>+60 Armor +25 Health Regen per 5 sec Passive: 20% chance on being hit to slow the attacker's movement and attack speeds by 35% for 3 seconds.</description>
+<components><itemId>1031</itemId>
+<itemId>1006</itemId></components>
+<componentOf><itemId>3143</itemId></componentOf>
+ <cost>400</cost>
+</item>
+<item>
+ <name>Sword of the Occult</name>
+ <id>3141</id>
+ <description>+10 Attack Damage UNIQUE Passive: Your champion gains 5 damage per stack, receiving 2 stacks for a kill or 1 stack for an assist.  This effect can stack 20 times; you lose a third of your stacks if you die.  At 20 stacks, your champion's movement speed is increased 15%.</description>
+<components><itemId>1036</itemId></components>
+<componentOf/>
+ <cost>954</cost>
+</item>
+<item>
+ <name>Vampiric Scepter</name>
+ <id>1053</id>
+ <description>+12% Lifesteal</description>
+<components/>
+<componentOf><itemId>3097</itemId>
+<itemId>3072</itemId>
+<itemId>3114</itemId>
+<itemId>3154</itemId>
+<itemId>3123</itemId>
+<itemId>3144</itemId></componentOf>
+ <cost>450</cost>
+</item>
+<item>
+ <name>Catalyst the Protector</name>
+ <id>3010</id>
+ <description>+290 Health +325 Mana Passive: Restores 300 Health and 250 Mana upon leveling up</description>
+<components><itemId>1028</itemId>
+<itemId>1027</itemId></components>
+<componentOf><itemId>3102</itemId>
+<itemId>3027</itemId></componentOf>
+ <cost>450</cost>
+</item>
+<item>
+ <name>Youmuu's Ghostblade</name>
+ <id>3142</id>
+ <description>+30 Attack Damage +15% Critical Chance UNIQUE Passive: +20 Armor Penetration 15% Cooldown Reduction UNIQUE Active: You gain +20% movespeed and +50% attack speed for 4 seconds. Attacking enemy units with melee attacks increases the duration by 2 to a maximum of 8 seconds. 60 second cooldown.</description>
+<components><itemId>3093</itemId>
+<itemId>3134</itemId></components>
+<componentOf/>
+ <cost>600</cost>
+</item>
+<item>
+ <name>Emblem of Valour</name>
+ <id>3097</id>
+ <description>+17% Lifesteal UNIQUE Aura: Nearby allied Champions gain 10 Health Regen per 5 sec</description>
+<components><itemId>1053</itemId>
+<itemId>1006</itemId></components>
+<componentOf><itemId>3050</itemId></componentOf>
+ <cost>100</cost>
+</item>
+<item>
+ <name>Elixir of Brilliance</name>
+ <id>2039</id>
+ <description>Click to Consume: Grants 31-65 Ability Power, based on your champion's level, and reduces cooldowns by 10% for 4 minutes</description>
+<components/>
+<componentOf/>
+ <cost>300</cost>
+</item>
+<item>
+ <name>Thornmail</name>
+ <id>3075</id>
+ <description>+100 Armor UNIQUE Passive: On being hit by standard attacks, returns 30% of damage taken as magic damage.</description>
+<components><itemId>1031</itemId>
+<itemId>1029</itemId></components>
+<componentOf/>
+ <cost>1000</cost>
+</item>
+<item>
+ <name>Recurve Bow</name>
+ <id>1043</id>
+ <description>+40% Attack Speed</description>
+<components/>
+<componentOf><itemId>3050</itemId>
+<itemId>3126</itemId>
+<itemId>3131</itemId>
+<itemId>3091</itemId>
+<itemId>3035</itemId></componentOf>
+ <cost>1050</cost>
+</item>
+<item>
+ <name>Brawler's Gloves</name>
+ <id>1051</id>
+ <description>+8% Critical Strike</description>
+<components/>
+<componentOf><itemId>3123</itemId>
+<itemId>3093</itemId>
+<itemId>3086</itemId></componentOf>
+ <cost>400</cost>
+</item>
+<item>
+ <name>Giant's Belt</name>
+ <id>1011</id>
+ <description>+430 Health</description>
+<components/>
+<componentOf><itemId>3083</itemId>
+<itemId>3099</itemId>
+<itemId>3068</itemId>
+<itemId>3022</itemId>
+<itemId>3116</itemId></componentOf>
+ <cost>1110</cost>
+</item>
+<item>
+ <name>The Bloodthirster</name>
+ <id>3072</id>
+ <description>+60 Attack Damage +15% Lifesteal Passive: Gain an additional 1 Physical Damage and 0.25% Lifesteal per kill. Maximum of +40 Damage and 10% Lifesteal.  Bonuses are lost upon death.</description>
+<components><itemId>1053</itemId>
+<itemId>1038</itemId></components>
+<componentOf/>
+ <cost>900</cost>
+</item>
+<item>
+ <name>Archangel's Staff</name>
+ <id>3003</id>
+ <description>+400 Mana +25 Mana Regen per 5 sec +45 Ability Power Passive: 3% of your Max Mana is converted to Ability Power. UNIQUE Passive: Each time your Champion uses an Ability their Maximum Mana will increase by 4 Mana. This effect has a 3 second cooldown. Bonus caps at 1000 mana.</description>
+<components><itemId>3070</itemId>
+<itemId>1026</itemId></components>
+<componentOf/>
+ <cost>1000</cost>
+</item>
+<item>
+ <name>Long Sword</name>
+ <id>1036</id>
+ <description>+10 Attack Damage</description>
+<components/>
+<componentOf><itemId>3134</itemId>
+<itemId>3134</itemId>
+<itemId>3141</itemId>
+<itemId>3106</itemId>
+<itemId>3004</itemId>
+<itemId>3071</itemId>
+<itemId>3044</itemId>
+<itemId>3077</itemId>
+<itemId>3035</itemId></componentOf>
+ <cost>415</cost>
+</item>
+<item>
+ <name>Stinger</name>
+ <id>3101</id>
+ <description>+40% Attack Speed UNIQUE Passive: Reduces ability cooldowns by 10%.</description>
+<components><itemId>1042</itemId>
+<itemId>1042</itemId></components>
+<componentOf><itemId>3115</itemId></componentOf>
+ <cost>300</cost>
+</item>
+<item>
+ <name>Health Potion</name>
+ <id>2003</id>
+ <description>Click to Consume: Restores 200 Health over 20 seconds</description>
+<components/>
+<componentOf/>
+ <cost>35</cost>
+</item>
+<item>
+ <name>Force of Nature</name>
+ <id>3109</id>
+ <description>+76 Magic Resist +40 Health Regen per 5 sec +8% Movement Speed UNIQUE Passive: Restores 0.35% of your champion's health every second</description>
+<components><itemId>1007</itemId>
+<itemId>1007</itemId>
+<itemId>1057</itemId></components>
+<componentOf/>
+ <cost>1000</cost>
+</item>
+<item>
+ <name>Soul Shroud</name>
+ <id>3099</id>
+ <description>+520 Health UNIQUE Aura: Gives nearby Champions 12 Mana per 5 and 15% reduced Cooldowns.</description>
+<components><itemId>3037</itemId>
+<itemId>1011</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Nashor's Tooth</name>
+ <id>3115</id>
+ <description>+50% Attack Speed +55 Ability Power +10 Mana Regeneration per 5 UNIQUE Passive: Reduces ability cooldowns by 25%</description>
+<components><itemId>3101</itemId>
+<itemId>3108</itemId></components>
+<componentOf/>
+ <cost>500</cost>
+</item>
+<item>
+ <name>Chalice of Harmony</name>
+ <id>3028</id>
+ <description>+30 Magic Resistance +7.5 Mana Regen per 5 sec Unique Passive: Increases your Mana Regen by 1% per 1% Mana you are missing</description>
+<components><itemId>1005</itemId>
+<itemId>1033</itemId></components>
+<componentOf/>
+ <cost>100</cost>
+</item>
+<item>
+ <name>Spirit Visage</name>
+ <id>3065</id>
+ <description>+30 Magic Resistance +200 Health UNIQUE Passive: Reduces ability cooldowns by 12% and increases healing and regeneration  effects on yourself by 20%.</description>
+<components><itemId>1033</itemId>
+<itemId>1028</itemId></components>
+<componentOf/>
+ <cost>375</cost>
+</item>
+<item>
+ <name>Meki Pendant</name>
+ <id>1005</id>
+ <description>+7 Mana regen per 5 sec</description>
+<components/>
+<componentOf><itemId>3028</itemId>
+<itemId>3070</itemId>
+<itemId>3108</itemId></componentOf>
+ <cost>390</cost>
+</item>
+<item>
+ <name>Vision Ward</name>
+ <id>2043</id>
+ <description>Click to Consume: Places an invisible ward with 1000 range Magical Sight (see invisible units).  Lasts 3.5 minutes, Max: 3 Stacks.</description>
+<components/>
+<componentOf/>
+ <cost>150</cost>
+</item>
+<item>
+ <name>Boots of Swiftness</name>
+ <id>3009</id>
+ <description>UNIQUE Passive: Enhanced Movement 3</description>
+<components><itemId>1001</itemId></components>
+<componentOf/>
+ <cost>650</cost>
+</item>
+<item>
+ <name>Doran's Blade</name>
+ <id>1055</id>
+ <description>+120 Health +6 Damage +4% Lifesteal</description>
+<components/>
+<componentOf/>
+ <cost>435</cost>
+</item>
+<item>
+ <name>Deathfire Grasp</name>
+ <id>3128</id>
+ <description>+60 Ability Power +10 Mana Regen per 5 Sec UNIQUE Passive: Reduces ability cooldowns by 15%.  UNIQUE Active: Deals magic damage to target champion equal to 30% of their current health (+3.5% per 100 Ability Power) with a minimum of 200 damage.  1 minute cooldown</description>
+<components><itemId>3098</itemId>
+<itemId>3108</itemId></components>
+<componentOf/>
+ <cost>600</cost>
+</item>
+<item>
+ <name>Malady</name>
+ <id>3114</id>
+ <description>+15% Lifesteal +50% Attack Speed UNIQUE Passive: Your physical attacks infect your target, causing them to take 5 bonus damage (stacks up to 6 times) each time they are attacked by any champion</description>
+<components><itemId>1042</itemId>
+<itemId>1042</itemId>
+<itemId>1053</itemId></components>
+<componentOf/>
+ <cost>600</cost>
+</item>
+<item>
+ <name>Chain Vest</name>
+ <id>1031</id>
+ <description>+45 Armor</description>
+<components/>
+<componentOf><itemId>3005</itemId>
+<itemId>3082</itemId>
+<itemId>3075</itemId>
+<itemId>3024</itemId>
+<itemId>3068</itemId>
+<itemId>3026</itemId></componentOf>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Doran's Ring</name>
+ <id>1056</id>
+ <description>+120 Health +5 Mana Regen per 5 sec +10 Ability Power</description>
+<components/>
+<componentOf/>
+ <cost>435</cost>
+</item>
+<item>
+ <name>Rejuvenation Bead</name>
+ <id>1006</id>
+ <description>+8 Health Regen per 5 sec</description>
+<components/>
+<componentOf><itemId>3082</itemId>
+<itemId>3097</itemId>
+<itemId>3077</itemId></componentOf>
+ <cost>250</cost>
+</item>
+<item>
+ <name>Madred's Bloodrazor</name>
+ <id>3126</id>
+ <description>+30 Attack Damage +40% Attack Speed +25 Armor Passive: On hit, deals Magic Damage equal to 4% of the target's maximum Health</description>
+<components><itemId>3106</itemId>
+<itemId>1037</itemId>
+<itemId>1043</itemId></components>
+<componentOf/>
+ <cost>775</cost>
+</item>
+<item>
+ <name>Pickaxe</name>
+ <id>1037</id>
+ <description>+25 Attack Damage</description>
+<components/>
+<componentOf><itemId>3126</itemId>
+<itemId>3031</itemId>
+<itemId>3124</itemId>
+<itemId>3077</itemId>
+<itemId>3144</itemId></componentOf>
+ <cost>975</cost>
+</item>
+<item>
+ <name>Glacial Shroud</name>
+ <id>3024</id>
+ <description>+425 Mana +45 Armor UNIQUE Passive: Reduces ability cooldowns by 20%</description>
+<components><itemId>1027</itemId>
+<itemId>1031</itemId></components>
+<componentOf><itemId>3110</itemId></componentOf>
+ <cost>575</cost>
+</item>
+<item>
+ <name>Sword of the Divine</name>
+ <id>3131</id>
+ <description>+55% Attack Speed UNIQUE Passive: Every fourth attack deals 100 extra Magic Damage.  UNIQUE Active: Your attacks cannot be dodged and you gain 30 Armor Penetration for 8 sec.</description>
+<components><itemId>1043</itemId>
+<itemId>1042</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Needlessly Large Rod</name>
+ <id>1058</id>
+ <description>+80 Ability Power</description>
+<components/>
+<componentOf/>
+ <cost>1600</cost>
+</item>
+<item>
+ <name>Beserker's Greaves</name>
+ <id>3006</id>
+ <description>+25% Attack Speed UNIQUE Passive: Enhanced Movement 2</description>
+<components><itemId>1001</itemId>
+<itemId>1042</itemId></components>
+<componentOf/>
+ <cost>150</cost>
+</item>
+<item>
+ <name>Kindlegem</name>
+ <id>3067</id>
+ <description>+200 Health UNIQUE Passive: Reduces ability cooldowns by 10%</description>
+<components><itemId>1028</itemId></components>
+<componentOf><itemId>3069</itemId></componentOf>
+ <cost>425</cost>
+</item>
+<item>
+ <name>Infinity Edge</name>
+ <id>3031</id>
+ <description>+80 Attack Damage +20% Critical Strike UNIQUE Passive: Critical hits now deal 250% damage instead of 200%</description>
+<components><itemId>1038</itemId>
+<itemId>1037</itemId>
+<itemId>1018</itemId></components>
+<componentOf/>
+ <cost>375</cost>
+</item>
+<item>
+ <name>Sunfire Cape</name>
+ <id>3068</id>
+ <description>+450 Health +45 Armor Passive: Deals 40 Magic Damage a second to nearby enemies.</description>
+<components><itemId>1031</itemId>
+<itemId>1011</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Cloth Armor</name>
+ <id>1029</id>
+ <description>+18 Armor</description>
+<components/>
+<componentOf><itemId>3075</itemId>
+<itemId>3106</itemId>
+<itemId>3026</itemId>
+<itemId>3105</itemId>
+<itemId>3047</itemId>
+<itemId>3132</itemId>
+<itemId>3110</itemId>
+<itemId>3110</itemId></componentOf>
+ <cost>300</cost>
+</item>
+<item>
+ <name>Will of the Ancients</name>
+ <id>3152</id>
+ <description>+40 Ability Power UNIQUE Aura: Gives nearby allied champions +30 Ability Power and 15% spell vamp.</description>
+<components><itemId>1052</itemId>
+<itemId>3145</itemId></components>
+<componentOf/>
+ <cost>765</cost>
+</item>
+<item>
+ <name>Madred's Razors</name>
+ <id>3106</id>
+ <description>+15 Damage +23 Armor UNIQUE Passive: 15% chance on attack to deal 500 damage to a minion</description>
+<components><itemId>1036</itemId>
+<itemId>1029</itemId></components>
+<componentOf><itemId>3126</itemId>
+<itemId>3154</itemId></componentOf>
+ <cost>285</cost>
+</item>
+<item>
+ <name>Wit's End</name>
+ <id>3091</id>
+ <description>+40% Attack Speed +32 Magic Resistance UNIQUE Passive: Physical Attacks remove up to 42 mana from the target and deal additional damage equal to the amount of mana removed.</description>
+<components><itemId>1043</itemId>
+<itemId>1033</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Manamune</name>
+ <id>3004</id>
+ <description>+350 Mana + 7 Mana Regen per 5 sec +20 Attack Damage UNIQUE Passive: 1.5% of your max mana is converted to attack damage.  UNIQUE Passive: Each time you attack, you gain one maximum mana (3 second cooldown).  Each time you use an ability, you gain 4 maximum mana (3 second cooldown).  Bous capst at 1000 mana</description>
+<components><itemId>3070</itemId>
+<itemId>1036</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Regrowth Pendant</name>
+ <id>1007</id>
+ <description>+15 Health Regen per 5 sec</description>
+<components/>
+<componentOf><itemId>3083</itemId>
+<itemId>3109</itemId>
+<itemId>3109</itemId>
+<itemId>3096</itemId></componentOf>
+ <cost>350</cost>
+</item>
+<item>
+ <name>Doran's Shield</name>
+ <id>1054</id>
+ <description>+120 Health +9 Armor +8 Health Regeneration per 5</description>
+<components/>
+<componentOf/>
+ <cost>435</cost>
+</item>
+<item>
+ <name>Negatron Cloak</name>
+ <id>1057</id>
+ <description>+48 Magic Resistance</description>
+<components/>
+<componentOf><itemId>3001</itemId>
+<itemId>3140</itemId>
+<itemId>3109</itemId>
+<itemId>3102</itemId></componentOf>
+ <cost>740</cost>
+</item>
+<item>
+ <name>Kage's Lucky Pick</name>
+ <id>3098</id>
+ <description>+25 Ability Power Passive: Gain an additional 5 Gold every 10 seconds</description>
+<components><itemId>1052</itemId></components>
+<componentOf><itemId>3128</itemId></componentOf>
+ <cost>330</cost>
+</item>
+<item>
+ <name>Banshee's Veil</name>
+ <id>3102</id>
+ <description>+450 Health +400 Mana +57 Magic Resist UNIQUE Passive: Blocks one negative spell every 30 seconds</description>
+<components><itemId>1057</itemId>
+<itemId>3010</itemId></components>
+<componentOf/>
+ <cost>650</cost>
+</item>
+<item>
+ <name>Oracle's Elixir</name>
+ <id>2042</id>
+ <description>Click to Consume: Gives your Champion stealth detection until you die.</description>
+<components/>
+<componentOf/>
+ <cost>400</cost>
+</item>
+<item>
+ <name>Void Staff</name>
+ <id>3135</id>
+ <description>+50 Ability Power +250 Mana UNIQUE Passive: Spells penetrate 40% of the defender's magic resist.</description>
+<components><itemId>1026</itemId>
+<itemId>1052</itemId></components>
+<componentOf/>
+ <cost>1000</cost>
+</item>
+<item>
+ <name>B.F. Sword</name>
+ <id>1038</id>
+ <description>+50 Attack Damage</description>
+<components/>
+<componentOf><itemId>3072</itemId>
+<itemId>3031</itemId>
+<itemId>3071</itemId></componentOf>
+ <cost>1850</cost>
+</item>
+<item>
+ <name>Frozen Mallet</name>
+ <id>3022</id>
+ <description>+700 Health +20 Attack Damage UNIQUE Passive: Physical attacks reduce your target's Movement Speed for 2.5 seconds</description>
+<components><itemId>3044</itemId>
+<itemId>1011</itemId></components>
+<componentOf/>
+ <cost>825</cost>
+</item>
+<item>
+ <name>Tear of the Goddess</name>
+ <id>3070</id>
+ <description>+350 Mana +7 Mana Regen per 5 sec UNIQUE Passive: Each time your Champion uses an Ability their Maximum Mana will increase by 4 Mana, up to a maximum of twice in a six second period; bonuses cap at +600 Mana; Bonuses cap at +1000 Mana</description>
+<components><itemId>1005</itemId>
+<itemId>1027</itemId></components>
+<componentOf><itemId>3003</itemId>
+<itemId>3004</itemId></componentOf>
+ <cost>205</cost>
+</item>
+<item>
+ <name>Guardian Angel</name>
+ <id>3026</id>
+ <description>+68 Armor +38 Magic Resistance UNIQUE Passive: Revives your Champion upon death, restoring 750 Health and 375 Mana, this effect can only occur once every 5 minutes</description>
+<components><itemId>1033</itemId>
+<itemId>1029</itemId>
+<itemId>1031</itemId></components>
+<componentOf/>
+ <cost>1200</cost>
+</item>
+<item>
+ <name>Guinsoo's Rageblade</name>
+ <id>3124</id>
+ <description>+35 Attack Damage +45 Ability Power Passive: On attack or spell cast, increases your Attack Speed by 4% and Ability Power by 6.  Lasts 5 seconds (stacks up to 8 times)</description>
+<components><itemId>1026</itemId>
+<itemId>1037</itemId></components>
+<componentOf/>
+ <cost>400</cost>
+</item>
+<item>
+ <name>Faerie Charm</name>
+ <id>1004</id>
+ <description>+3 Mana Regen per 5 sec</description>
+<components/>
+<componentOf><itemId>3096</itemId>
+<itemId>3077</itemId>
+<itemId>3037</itemId>
+<itemId>3037</itemId></componentOf>
+ <cost>180</cost>
+</item>
+<item>
+ <name>Boots of Mobility</name>
+ <id>3117</id>
+ <description>UNIQUE Passive: Enhanced Movement 2 Passive: When out of combat for 5 seconds the effect of these boots is increased to Enhanced Movement 5</description>
+<components><itemId>1001</itemId></components>
+<componentOf/>
+ <cost>650</cost>
+</item>
+<item>
+ <name>Lich Bane</name>
+ <id>3100</id>
+ <description>+350 Mana +80 Ability Power +30 Magic Resist +7% Movement Speed UNIQUE Passive: 100% chance when an ability is used that your next physical attack deals an additional 100% of your Ability Power in damage. This effect has a 2 second cooldown</description>
+<components><itemId>1033</itemId>
+<itemId>3057</itemId>
+<itemId>1026</itemId></components>
+<componentOf/>
+ <cost>950</cost>
+</item>
+<item>
+ <name>Mana Potion</name>
+ <id>2004</id>
+ <description>Click to Consume: Restores 100 Mana over 20 seconds</description>
+<components/>
+<componentOf/>
+ <cost>40</cost>
+</item>
+<item>
+ <name>Sapphire Crystal</name>
+ <id>1027</id>
+ <description>+200 Mana</description>
+<components/>
+<componentOf><itemId>3057</itemId>
+<itemId>3010</itemId>
+<itemId>3024</itemId>
+<itemId>3070</itemId></componentOf>
+ <cost>400</cost>
+</item>
+<item>
+ <name>Phantom Dancer</name>
+ <id>3046</id>
+ <description>+45% Attack Speed +30% Critical Strike +20% Dodge Chance +15% Movement Speed</description>
+<components><itemId>1018</itemId>
+<itemId>3086</itemId>
+<itemId>1042</itemId></components>
+<componentOf/>
+ <cost>900</cost>
+</item>
+<item>
+ <name>The Black Cleaver</name>
+ <id>3071</id>
+ <description>+75 Attack Damage Passive: Physical attacks reduce your target's Armor by 12 for 5 seconds, (maximum 5 stacks).</description>
+<components><itemId>1036</itemId>
+<itemId>1038</itemId></components>
+<componentOf/>
+ <cost>800</cost>
+</item>
+<item>
+ <name>Wriggle's Lantern</name>
+ <id>3154</id>
+ <description>+23 Damage +30 Armor +14% Lifesteal UNIQUE Passive: 20% chance on attack to deal 500 damage to a minion UNIQUE Active: Places an invisible ward within 1100 range sight and lasts for 3 minutes.  3 minute cooldown.</description>
+<components><itemId>1053</itemId>
+<itemId>3106</itemId></components>
+<componentOf/>
+ <cost>75</cost>
+</item>
+<item>
+ <name>Executioner's Calling</name>
+ <id>3123</id>
+ <description>+18% Lifesteal +15% Critical Strike Chance UNIQUE Passive: On hit, you cause 4 damage per second for 8 seconds.  UNIQUE Active: Inflicts target enemy champion with Grievous Wound, causing 50% reduced healing for 8 seconds.  20 second cooldown.</description>
+<components><itemId>1051</itemId>
+<itemId>1053</itemId></components>
+<componentOf/>
+ <cost>500</cost>
+</item>
+<item>
+ <name>Sight Ward</name>
+ <id>2044</id>
+ <description>Click to Consume: Places an invisible ward with 1100 range sight.  Lasts 4.5 minutes, Max: 3 Stacks.</description>
+<components/>
+<componentOf/>
+ <cost>90</cost>
+</item>
+<item>
+ <name>Mercury's Treads</name>
+ <id>3111</id>
+ <description>+25 Magic Resist UNIQUE Passive: Enhanced Movement 2  Reduces the duration of Movement inhibiting effects by 35%.</description>
+<components><itemId>1001</itemId>
+<itemId>1033</itemId></components>
+<componentOf/>
+ <cost>450</cost>
+</item>
+<item>
+ <name>Trinity Force</name>
+ <id>3078</id>
+ <description>+20 Damage, +30 Ability Power, +25% Attack Speed, +12% Crit Chance, +12% Move Speed, +300 Health, +300 Mana, UNIQUE Passive: 25% chance on hit to slow the target by 35% for 2.5 seconds; on cast, increases your base Attack Damage by 150% for one attack.</description>
+<components><itemId>3086</itemId>
+<itemId>3057</itemId>
+<itemId>3044</itemId></components>
+<componentOf/>
+ <cost>300</cost>
+</item>
+<item>
+ <name>Elixir of Fortitude</name>
+ <id>2037</id>
+ <description>Click to Consume: Grants 230-400 Health and 11-28 Attack Damage (based on champion level) for 4 minutes</description>
+<components/>
+<componentOf/>
+ <cost>300</cost>
+</item>
+<item>
+ <name>Hextech Revolver</name>
+ <id>3145</id>
+ <description>+40 Ability Power +10% Spell Vamp</description>
+<components><itemId>1052</itemId>
+<itemId>1052</itemId></components>
+<componentOf><itemId>3152</itemId>
+<itemId>3146</itemId></componentOf>
+ <cost>330</cost>
+</item>
+<item>
+ <name>Aegis of the Legion</name>
+ <id>3105</id>
+ <description>+270 Health +18 Armor +24 Magic Resist and a UNIQUE Aura: +12 Armor / +15 Magic Resistance / +8 damage to nearby allied units</description>
+<components><itemId>1028</itemId>
+<itemId>1033</itemId>
+<itemId>1029</itemId></components>
+<componentOf/>
+ <cost>750</cost>
+</item>
+<item>
+ <name>Leviathan</name>
+ <id>3138</id>
+ <description>+180 Health UNIQUE Passive: Your champion gains 32 health per stack, receiving 2 stacks for a kill or 1 stack for an assist.  This effect can stack 20 times; you lose a third of your stacks if you die.  At 20 stacks, your champion takes 15% less damage.</description>
+<components><itemId>1028</itemId></components>
+<componentOf/>
+ <cost>800</cost>
+</item>
+<item>
+ <name>Amplifying Tome</name>
+ <id>1052</id>
+ <description>+20 Ability Power</description>
+<components/>
+<componentOf><itemId>3057</itemId>
+<itemId>3152</itemId>
+<itemId>3098</itemId>
+<itemId>3135</itemId>
+<itemId>3145</itemId>
+<itemId>3145</itemId>
+<itemId>3041</itemId>
+<itemId>3108</itemId>
+<itemId>3116</itemId>
+<itemId>3136</itemId></componentOf>
+ <cost>435</cost>
+</item>
+<item>
+ <name>Ninja Tabi</name>
+ <id>3047</id>
+ <description>+25 Armor +12% Dodge Chance UNIQUE Passive: Enhanced Movement 2</description>
+<components><itemId>1001</itemId>
+<itemId>1029</itemId></components>
+<componentOf/>
+ <cost>200</cost>
+</item>
+<item>
+ <name>Avarice Blade</name>
+ <id>3093</id>
+ <description>+12% Critical Strike Passive: Gain an additional 5 Gold every 10 seconds</description>
+<components><itemId>1051</itemId></components>
+<componentOf><itemId>3142</itemId></componentOf>
+ <cost>350</cost>
+</item>
+<item>
+ <name>Philosopher's Stone</name>
+ <id>3096</id>
+ <description>+22.5 Health Regen per 5 sec +10 Mana Regen per 5 sec Passive: Gain an additional 5 Gold every 10 seconds.</description>
+<components><itemId>1004</itemId>
+<itemId>1007</itemId></components>
+<componentOf><itemId>3069</itemId></componentOf>
+ <cost>185</cost>
+</item>
+<item>
+ <name>Dagger</name>
+ <id>1042</id>
+ <description>+15% Attack Speed</description>
+<components/>
+<componentOf><itemId>3101</itemId>
+<itemId>3101</itemId>
+<itemId>3114</itemId>
+<itemId>3114</itemId>
+<itemId>3131</itemId>
+<itemId>3006</itemId>
+<itemId>3046</itemId>
+<itemId>3086</itemId></componentOf>
+ <cost>420</cost>
+</item>
+<item>
+ <name>Phage</name>
+ <id>3044</id>
+ <description>+225 Health +18 Attack Damage Passive: 25% chance on hit to reduce your target's Movement Speed by 30% for 2.5 seconds.</description>
+<components><itemId>1028</itemId>
+<itemId>1036</itemId></components>
+<componentOf><itemId>3022</itemId>
+<itemId>3078</itemId></componentOf>
+ <cost>425</cost>
+</item>
+<item>
+ <name>Randuin's Omen</name>
+ <id>3143</id>
+ <description>+300 Health +90 Armor +25 Health Regen per 5 sec. UNIQUE Passive: 15% Cooldown Reduction and 20% chance on being hit to slow the attacker's movement and attack speeds by 25% for 3 seconds. UNIQUE Active: Slows movement speeds and attack speeds of surrounding units by 35% for 1 second + 0.5 seconds for each 100 Armor and Magic Resist. 60 second cooldown.</description>
+<components><itemId>3132</itemId>
+<itemId>3082</itemId></components>
+<componentOf/>
+ <cost>600</cost>
+</item>
+<item>
+ <name>Tiamat</name>
+ <id>3077</id>
+ <description>+42 Attack Damage +15 Health Regen per 5 sec +4 Mana Regen per 5 sec Passive: Your attacks Splash, dealing Physical Damage in a small area around the target.</description>
+<components><itemId>1037</itemId>
+<itemId>1036</itemId>
+<itemId>1004</itemId>
+<itemId>1006</itemId></components>
+<componentOf/>
+ <cost>250</cost>
+</item>
+<item>
+ <name>Last Whisper</name>
+ <id>3035</id>
+ <description>+10 Attack Damage +40% Attack Speed UNIQUE Passive: Attacks penetrate 40% of the defender's armor</description>
+<components><itemId>1043</itemId>
+<itemId>1036</itemId></components>
+<componentOf/>
+ <cost>500</cost>
+</item>
+<item>
+ <name>Mana Manipulator</name>
+ <id>3037</id>
+ <description>UNIQUE Aura: Restores 7.2 Mana per 5 seconds to nearby friendly Champions</description>
+<components><itemId>1004</itemId>
+<itemId>1004</itemId></components>
+<componentOf><itemId>3099</itemId></componentOf>
+ <cost>115</cost>
+</item>
+<item>
+ <name>Heart of Gold</name>
+ <id>3132</id>
+ <description>+200 Health +27 Armor  Passive: Generates 5 Gold every 10 seconds</description>
+<components><itemId>1028</itemId>
+<itemId>1029</itemId></components>
+<componentOf><itemId>3143</itemId></componentOf>
+ <cost>200</cost>
+</item>
+<item>
+ <name>Mejai's Soulstealer</name>
+ <id>3041</id>
+ <description>+20 Ability Power UNIQUE Passive: Your champion gains 8 ability power per stack, receiving 2 stacks for a kill or 1 stack for an assist.  This effect can stack 20 times; you lose a third of your stacks if you die.  At 20 stacks, your champion's cooldowns are reduced by 15%.</description>
+<components><itemId>1052</itemId></components>
+<componentOf/>
+ <cost>800</cost>
+</item>
+<item>
+ <name>Fiendish Codex</name>
+ <id>3108</id>
+ <description>+30 Ability Power +7 Mana Regeneration per 5 UNIQUE Passive: Reduces ability cooldowns by 10%</description>
+<components><itemId>1005</itemId>
+<itemId>1052</itemId></components>
+<componentOf><itemId>3115</itemId>
+<itemId>3128</itemId></componentOf>
+ <cost>420</cost>
+</item>
+<item>
+ <name>Rylai's Scepter</name>
+ <id>3116</id>
+ <description>+500 Health +80 Ability Power Passive: Dealing spell damage slows the target's movement speed by 35% for 2 seconds (15% for multi-target spells).</description>
+<components><itemId>1026</itemId>
+<itemId>1052</itemId>
+<itemId>1011</itemId></components>
+<componentOf/>
+ <cost>700</cost>
+</item>
+<item>
+ <name>Blasting Wand</name>
+ <id>1026</id>
+ <description>+40 Ability Power</description>
+<components/>
+<componentOf><itemId>3001</itemId>
+<itemId>3003</itemId>
+<itemId>3135</itemId>
+<itemId>3124</itemId>
+<itemId>3100</itemId>
+<itemId>3116</itemId>
+<itemId>3027</itemId></componentOf>
+ <cost>860</cost>
+</item>
+<item>
+ <name>Zeal</name>
+ <id>3086</id>
+ <description>+20% Attack Speed +10% Critical Strike +8% Movement Speed</description>
+<components><itemId>1042</itemId>
+<itemId>1051</itemId></components>
+<componentOf><itemId>3046</itemId>
+<itemId>3078</itemId></componentOf>
+ <cost>375</cost>
+</item>
+<item>
+ <name>Ruby Crystal</name>
+ <id>1028</id>
+ <description>+180 Health</description>
+<components/>
+<componentOf><itemId>3083</itemId>
+<itemId>3010</itemId>
+<itemId>3065</itemId>
+<itemId>3067</itemId>
+<itemId>3105</itemId>
+<itemId>3138</itemId>
+<itemId>3044</itemId>
+<itemId>3132</itemId>
+<itemId>3136</itemId></componentOf>
+ <cost>475</cost>
+</item>
+<item>
+ <name>Elixir of Agility</name>
+ <id>2038</id>
+ <description>Click to Consume: Grants 20-35% Attack Speed, based on champion level, and 15% Critial Strike for 4 minutes</description>
+<components/>
+<componentOf/>
+ <cost>300</cost>
+</item>
+<item>
+ <name>Hextech Gunblade</name>
+ <id>3146</id>
+ <description>+60 Attack Damage +75 Ability Power +15% Life Steal +13% Spell Vamp UNIQUE Active: Deals 300 magic damage and slows the target champion by 50% for 3 seconds (700 range). 60 second cooldown.</description>
+<components><itemId>3144</itemId>
+<itemId>3145</itemId></components>
+<componentOf/>
+ <cost>600</cost>
+</item>
+<item>
+ <name>Shurelya's Reverie</name>
+ <id>3069</id>
+ <description>+330 Health +25 Health Regen per 5 sec + 12 Mana Regen per 5 sec UNIQUE Passive: Reduces ability cooldowns by 15%  UNIQUE Active: Nearby champions gain 40% movement speed for 2 seconds (60 second cooldown)</description>
+<components><itemId>3067</itemId>
+<itemId>3096</itemId></components>
+<componentOf/>
+ <cost>500</cost>
+</item>
+<item>
+ <name>Boots of Speed</name>
+ <id>1001</id>
+ <description>UNIQUE Passive: Enhanced Movement 1</description>
+<components/>
+<componentOf><itemId>3009</itemId>
+<itemId>3006</itemId>
+<itemId>3117</itemId>
+<itemId>3111</itemId>
+<itemId>3047</itemId>
+<itemId>3020</itemId></componentOf>
+ <cost>350</cost>
+</item>
+<item>
+ <name>Bilgewater Cutlass</name>
+ <id>3144</id>
+ <description>+35 Attack Damage +15% Life Steal UNIQUE Active: Deals 150 magic damage and slows the target champion by 50% for 3 seconds (400 range). 60 second cooldown.</description>
+<components><itemId>1037</itemId>
+<itemId>1053</itemId></components>
+<componentOf><itemId>3146</itemId></componentOf>
+ <cost>400</cost>
+</item>
+<item>
+ <name>NullMagic Mantle</name>
+ <id>1033</id>
+ <description>+24 Magic Resistance</description>
+<components/>
+<componentOf><itemId>3028</itemId>
+<itemId>3065</itemId>
+<itemId>3091</itemId>
+<itemId>3026</itemId>
+<itemId>3100</itemId>
+<itemId>3111</itemId>
+<itemId>3105</itemId></componentOf>
+ <cost>400</cost>
+</item>
+<item>
+ <name>Haunting Guise</name>
+ <id>3136</id>
+ <description>+20 Ability Power +180 Health UNIQUE Passive: +20 Magic Penetration</description>
+<components><itemId>1028</itemId>
+<itemId>1052</itemId></components>
+<componentOf/>
+ <cost>575</cost>
+</item>
+<item>
+ <name>Rod of Ages</name>
+ <id>3027</id>
+ <description>+380 Health +425 Mana +50 Ability Power Passive: Your Champion gains 18 Health, 20 Mana, and 2 Ability Power every 1 min. Bonuses cap at +270 Health, +300 Mana, and +30 Ability Power.</description>
+<components><itemId>3010</itemId>
+<itemId>1026</itemId></components>
+<componentOf/>
+ <cost>850</cost>
+</item>
+<item>
+ <name>Frozen Heart</name>
+ <id>3110</id>
+ <description>+99 Armor +500 Mana UNIQUE Passive: Reduces ability cooldowns by 25% and reduces the attack speed of nearby enemies by 20%</description>
+<components><itemId>1029</itemId>
+<itemId>1029</itemId>
+<itemId>3024</itemId></components>
+<componentOf/>
+ <cost>800</cost>
+</item>
+<item>
+ <name>Sorcerer's Shoes</name>
+ <id>3020</id>
+ <description>+20 Magic Penetration UNIQUE Passive: Enhanced Movement 2</description>
+<components><itemId>1001</itemId></components>
+<componentOf/>
+ <cost>750</cost>
+</item>
+</items>
