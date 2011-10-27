@@ -65,7 +65,7 @@ package com.dreamofninjas.rib.views
 								.withItemWidth(itemW)
 								.withWidth(GRID_WIDTH)
 								.withHeight(GRID_HEIGHT)
-								.build() as ScrollableGridLayout;
+								.draw() as ScrollableGridLayout;
 
 						_gridLayout.addEventListener(ItemSlotSpriteEvent.SELECTED, itemSelected);
 						addChild(_gridLayout);

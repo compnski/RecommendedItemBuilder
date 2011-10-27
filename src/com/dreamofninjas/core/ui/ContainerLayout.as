@@ -1,6 +1,8 @@
 package com.dreamofninjas.core.ui
 {
 	import com.dreamofninjas.core.ui.SpriteList;
+	
+	import flash.display.Sprite;
 
 	public class ContainerLayout extends BaseLayout {
 
@@ -22,7 +24,7 @@ package com.dreamofninjas.core.ui
 		 * Runs a function on all sprites in the container
 		 */
 		public function apply(func:Function):void {
-				for each(sprite:Sprite in updatedSpriteList) {
+				for each(var sprite:Sprite in _spriteList) {
 								func(sprite);
 						}
 		}

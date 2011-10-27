@@ -6,12 +6,15 @@ package com.dreamofninjas.rib.models {
 
 		public class ItemSet extends EventDispatcher {
 
+				public static const GAME_MODE_CLASSIC:String = "Classic";
+			
 				protected const MAX_ITEMS_PER_SET:int = 6;
 
 				protected var _name:String;
 				protected var _items:Array = [];
 				protected var _tags:Set = new Set();
 				protected var _champions:Set = new Set();
+				public var gameMode:String = "Classic";
 
 				public function ItemSet(name:String, items:Array = null, tags:Set = null, champions:Set = null) {
 						_name = name;

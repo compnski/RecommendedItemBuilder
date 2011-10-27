@@ -1,5 +1,7 @@
 package com.dreamofninjas.rib
 {
+	import com.dreamofninjas.core.ui.AnimatedClip;
+	import com.dreamofninjas.core.util.MultiLoader;
 	import com.dreamofninjas.rib.events.ItemSlotSpriteEvent;
 	import com.dreamofninjas.rib.events.LoadedEvent;
 	import com.dreamofninjas.rib.models.ItemSet;
@@ -12,8 +14,6 @@ package com.dreamofninjas.rib
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.utils.getDefinitionByName;
-	import com.dreamofninjas.core.ui.AnimatedClip;
-	import com.dreamofninjas.core.util.MultiLoader;
 	
 	public class RibStage extends Sprite
 	{
@@ -60,11 +60,22 @@ package com.dreamofninjas.rib
 			var iselview:ItemSelectorView = new ItemSelectorView(itemMetadataLoader.itemList)
 				.withHeight(480)
 				.withWidth(640)
-				.build() as ItemSelectorView; 
+				.draw() as ItemSelectorView; 
 			iselview.y = 90;
 			addChild(iselview);
 			trace(this.width);
 			addEventListener(ItemSlotSpriteEvent.SELECTED, setItems);
+			var button:Sprite = new Sprite();
+			button.graphics.beginFill(0xEEaa22);
+			button.graphics.drawRoundRect(0, 0, 100, 35, 10, 10);
+			button.x = isv.width + 10;
+			button.y = 20;
+			addChild(button);
+			button.addEventListener(MouseEvent.CLICK, function(ev:MouseEvent) {
+				var fw:FileWriter = new FileWriter();
+				items.championList.add("Irelia");
+				fw.saveItemSet(items);
+			});
 		}
 		
 		protected function setItems(ev:ItemSlotSpriteEvent):void {

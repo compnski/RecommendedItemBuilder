@@ -1,8 +1,8 @@
 package com.dreamofninjas.core.util {
 	import flash.net.dns.ARecord;
 
-	public class Set {
-		protected var _collection:Object = new Object();
+	public dynamic class Set extends Object {
+		//protected var _collection:Object = new Object();
 		protected var _count:int = 0;
 
 		public function Set(obj:Object = null) {
@@ -26,7 +26,7 @@ package com.dreamofninjas.core.util {
 			if (has(obj)) {
 				return;
 			}
-			_collection[obj] = obj;
+			this[obj] = obj;
 			_count++;
 		}
 
@@ -34,14 +34,14 @@ package com.dreamofninjas.core.util {
 			if (!has(obj)) {
 				return false;
 			}
-			_collection[obj] = null;
-			delete _collection[obj];
+			this[obj] = null;
+			delete this[obj];
 			_count--;
 			return true;
 		}
 
 		public function has(obj:Object):Boolean {
-			return (obj in _collection);
+			return (obj in this);
 		}
 
 		public function hasOwnProperty(key:String):Boolean {
@@ -53,7 +53,7 @@ package com.dreamofninjas.core.util {
 		 */
 		public function join(sep:String):String {
 			var buf:Array = [];
-			for each(var obj:Object in _collection) {
+			for each(var obj:Object in this) {
 				buf.push(obj.toString());
 			}
 			return buf.join(sep);
