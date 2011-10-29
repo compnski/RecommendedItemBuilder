@@ -40,6 +40,11 @@ package com.dreamofninjas.rib.models {
 						_items[slotId] = itemId;
 						_setUpdated(slotId);
 				}
+				
+				public function clearChampions():void {
+					_champions = new Set();
+				}
+				
 				public function removeItem(slotId:int):void {
 						if (slotId > MAX_ITEMS_PER_SET) {
 								throw new Error("No item slot " + slotId);

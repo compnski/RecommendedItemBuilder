@@ -9,12 +9,14 @@ package com.dreamofninjas.rib
 	import com.dreamofninjas.rib.views.ItemSelectorView;
 	import com.dreamofninjas.rib.views.ItemSetView;
 	
+	import fl.controls.TextInput;
+	
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.utils.getDefinitionByName;
-	
+		
 	public class RibStage extends Sprite
 	{
 		protected var itemSlot:AnimatedClip;
@@ -23,8 +25,8 @@ package com.dreamofninjas.rib
 		protected var initialAssetLoader:MultiLoader = new MultiLoader();
 		protected var isv:ItemSetView
 		private var items:ItemSet ;
+		private var champName:TextInput = new TextInput();
 		private static var _instance:RibStage = null;
-		
 		public static function Get():RibStage {
 			if (_instance == null) {
 				_instance = new RibStage(new ENFORCER());
@@ -49,6 +51,7 @@ package com.dreamofninjas.rib
 			trace("loaded!");
 			trace(itemMetadataLoader);
 			
+			
 			items= new ItemSet("TriforceAtmogs", [2003, 3096, 3078, 3083, 3005, 0]);
 			isv = new ItemSetView();
 			isv.y = 10;
@@ -56,7 +59,6 @@ package com.dreamofninjas.rib
 			isv.itemSet = items;
 			//isv.width = isv.width/2;
 			//isv.height= isv.height/2;
-			
 			var iselview:ItemSelectorView = new ItemSelectorView(itemMetadataLoader.itemList)
 				.withHeight(480)
 				.withWidth(640)
@@ -69,11 +71,17 @@ package com.dreamofninjas.rib
 			button.graphics.beginFill(0xEEaa22);
 			button.graphics.drawRoundRect(0, 0, 100, 35, 10, 10);
 			button.x = isv.width + 10;
-			button.y = 20;
+			button.y = 40;
+			champName.text= "Irelia";
+			champName.y = 10;
+			champName.x = button.x;
+			addChild(champName);
+
 			addChild(button);
-			button.addEventListener(MouseEvent.CLICK, function(ev:MouseEvent) {
+			button.addEventListener(MouseEvent.CLICK, function(ev:MouseEvent):void {
 				var fw:FileWriter = new FileWriter();
-				items.championList.add("Irelia");
+				items.clearChampions();
+				items.championList.add(champName.text);
 				fw.saveItemSet(items);
 			});
 		}
