@@ -1,5 +1,5 @@
 package com.dreamofninjas.rib.models {
-	import com.dreamofninjas.core.util.GenericLoader;
+	import com.dreamofninjas.core.util.BaseLoader;
 	
 	import flash.data.SQLConnection;
 	import flash.data.SQLStatement;
@@ -8,7 +8,7 @@ package com.dreamofninjas.rib.models {
 	import flash.events.SQLEvent;
 	import flash.filesystem.File;
 
-	public class SqliteStore extends GenericLoader {
+	public class SqliteStore extends BaseLoader {
 				// TODO(jason): Make SQL safe
 				// sqlc is a variable we need to define the connection to our database
 				private var sqlc:SQLConnection = new SQLConnection();
@@ -17,7 +17,7 @@ package com.dreamofninjas.rib.models {
 				protected var _callbackRegister:Object = new Object();
 				private static var _nextRequestId:int = 1;
 
-				public override function init():void {
+				public override function load():void {
 						var db:File = File.applicationStorageDirectory.resolvePath("test.db");
 						// after we set the file for our database we need to open it with our SQLConnection.
 						sqlc.openAsync(db);

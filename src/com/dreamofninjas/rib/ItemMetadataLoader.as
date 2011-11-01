@@ -1,30 +1,30 @@
 package com.dreamofninjas.rib {
-import com.dreamofninjas.core.util.GenericLoader;
+import com.dreamofninjas.core.util.BaseLoader;
 import com.dreamofninjas.rib.models.ItemMetadata;
 
 import flash.events.Event;
 import flash.events.EventDispatcher;
 import flash.net.URLLoader;
 import flash.net.URLRequest;
-import com.dreamofninjas.core.util.GenericLoader;
 
-public class ItemMetadataLoader extends GenericLoader {
+
+public class ItemMetadataLoader extends BaseLoader {
 
 	protected var _xmlString:URLRequest;
 	protected var _xmlLoader:URLLoader;
 	protected var _xml:XML;
 	protected var _itemList:Object;
-	
+
 	function ItemMetadataLoader() {
 		super();
 	}
-	
+
 	public function get itemList():Object
 	{
 		return _itemList;
 	}
 
-	public override function init():void {
+	public override function load():void {
 		_xmlString = new URLRequest("assets/items.xml");
 		_xmlLoader = new URLLoader(_xmlString);
 		_xmlLoader.addEventListener(Event.COMPLETE, xmlLoaded);
@@ -59,7 +59,7 @@ public class ItemMetadataLoader extends GenericLoader {
 		}
 		return ret;
 	}
-	
+
 	public override function toString():String {
 		var ret:String = "";
 		for each(var item:ItemMetadata in _itemList) {
