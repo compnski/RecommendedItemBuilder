@@ -44,7 +44,7 @@ package com.dreamofninjas.rib
 			initialAssetLoader.add(itemMetadataLoader);
 			initialAssetLoader.add(itemStore);
 			
-			initialAssetLoader.init();
+			initialAssetLoader.load();
 		}
 		
 		protected function allLoaded(evt:Event):void {
