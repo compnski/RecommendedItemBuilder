@@ -24,14 +24,15 @@ package com.dreamofninjas.core.ui {
 		AS3 override function push(...args):uint
 		{
 			addedSprites(args);
-			return super.push.apply(this,args);
+			return super.push.apply(this, args);
 		}
 		
 		AS3 override function splice(...values):* {
-			var removedSpritesList:Array = super.splice.apply(this, values);
-			if (removedSpritesList.length > 0) {
+			var removedSpritesList:SpriteList = super.splice.apply(values);
+			if (removedSpritesList && removedSpritesList.length > 0) {
 				removedSprites(removedSpritesList);
 			}
+			addedSprites(values);			
 			return removedSpritesList;
 		}
 		
