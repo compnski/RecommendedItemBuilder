@@ -1,6 +1,7 @@
 package com.dreamofninjas.rib
 {
 	import com.dreamofninjas.core.ui.AnimatedClip;
+	import com.dreamofninjas.core.util.ASLog;
 	import com.dreamofninjas.core.util.MultiLoader;
 	import com.dreamofninjas.rib.events.ItemSlotSpriteEvent;
 	import com.dreamofninjas.rib.events.LoadedEvent;
@@ -65,7 +66,7 @@ package com.dreamofninjas.rib
 				.draw() as ItemSelectorView; 
 			iselview.y = 90;
 			addChild(iselview);
-			trace(this.width);
+			ASLog.warning(this.width);
 			addEventListener(ItemSlotSpriteEvent.SELECTED, setItems);
 			var button:Sprite = new Sprite();
 			button.graphics.beginFill(0xEEaa22);

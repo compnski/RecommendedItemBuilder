@@ -24,7 +24,8 @@ package com.dreamofninjas.core.util
 		}
 	}
 
-	public override function load():void {
+	public override function load(timeout:uint=0):void {
+		super.load.apply(timeout);
 	    if (_loadCalled) {
 		throw new Error("Can't call load() twice.");
 	    }
@@ -44,8 +45,6 @@ package com.dreamofninjas.core.util
 		    trace("Trying to add the same item twice... " + loader);
 		    return;
 		}
-		trace("collision (" + loader + ", " + loader.toString() + " != ",
-		      _loaderMap[loader] + ")");
 		// TODO(jason): Throw error and/or log
 		return;
 	    }
