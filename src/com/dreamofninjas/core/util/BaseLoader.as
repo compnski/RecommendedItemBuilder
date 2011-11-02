@@ -19,7 +19,7 @@ package com.dreamofninjas.core.util
 		public function load(timeout:uint=0):void
 		{
 			if (timeout > 0) {
-				_timer = new Timer(timeout,0); 
+				_timer = new Timer(timeout, 1); 
 				_timer.addEventListener(TimerEvent.TIMER_COMPLETE, timeoutHandler);
 				_timer.start();
 			}
