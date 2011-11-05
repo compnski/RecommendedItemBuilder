@@ -54,9 +54,7 @@ package com.dreamofninjas.rib
 		}
 		
 		protected function allLoaded(evt:Event):void {
-			trace("loaded!");
-			trace(itemMetadataLoader);
-			
+			trace("loaded!");			
 			
 			items= new ItemSet("TriforceAtmogs", [2003, 3096, 3078, 3083, 3005, 0]);
 			isv = new ItemSetView();
@@ -89,28 +87,31 @@ package com.dreamofninjas.rib
 				items.championList.add(champName.text);
 				fw.saveItemSet(items);
 			});
-			
+
 			itemFilter = new TextInput();
 			itemFilter.x = 40;
 			itemFilter.y = 90;
 			itemFilter.width = 150;
-			addChild(itemFilter);
-			
+
 			var itemFilterLbl:TextField = new TextField();
 			itemFilterLbl.htmlText = "Filter:";
 			itemFilterLbl.x = itemFilter.x - 35;
 			itemFilterLbl.y = itemFilter.y;
+
 			addChild(itemFilterLbl);
-			
+			addChild(itemFilter);
+
 			itemFilter.addEventListener(Event.CHANGE, itemFilterChangeHandler);	
 		}
 		
 		protected function itemFilterChangeHandler(ev:Event):void {
 			if (itemFilter.text != "") {
 				iselview.addFilter(function(item:ItemMetadata):Boolean {
-					trace(itemFilter.text + " " + item.name);
-					return item.name.indexOf(itemFilter.text) > 0;
+					return item.name.toLowerCase().indexOf(itemFilter.text.toLowerCase()) >= 0;
 				}, "name");
+			}
+			else {
+				iselview.removeFilter("name");
 			}
 		}
 		
@@ -132,8 +133,7 @@ package com.dreamofninjas.rib
 		
 		
 		protected function setItems(ev:ItemSlotSpriteEvent):void {
-				trace("im a thing");
-				items.setItem(isv.selectedSlotId, ev.itemId)
+			items.setItem(isv.selectedSlotId, ev.itemId)
 			}
 
 			//itemStore.saveItemSet(items);

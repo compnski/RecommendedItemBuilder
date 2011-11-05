@@ -18,7 +18,10 @@ package com.dreamofninjas.core.ui {
 		}
 		
 		public function remove(sprite:Sprite):void {
-			splice(indexOf(sprite), 1);
+			var spriteIdx:int = indexOf(sprite);
+			if(spriteIdx == -1)
+				return;
+			splice(spriteIdx, 1);
 		}
 		
 		AS3 override function push(...args):uint
@@ -27,10 +30,13 @@ package com.dreamofninjas.core.ui {
 			return super.push.apply(this, args);
 		}
 		
-		AS3 override function splice(...values):* {
-			var removedSpritesList:SpriteList = super.splice.apply(values);
+		public function replace(values:Array):Array {
+			var removedSpritesList:Array = splice(0, this.length);			
 			if (removedSpritesList && removedSpritesList.length > 0) {
 				removedSprites(removedSpritesList);
+			}
+			for each(var sprite:Sprite in values) {
+				super.push(sprite);
 			}
 			addedSprites(values);			
 			return removedSpritesList;

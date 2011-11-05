@@ -34,7 +34,7 @@ package com.dreamofninjas.rib.views
 				public function ItemSelectorView(itemList:Object) {
 						super();
 						_itemList = itemList;
-						_filterTimer.addEventListener(TimerEvent.TIMER_COMPLETE, function(ev:TimerEvent) { _applyFilters() });
+						_filterTimer.addEventListener(TimerEvent.TIMER_COMPLETE, function(ev:TimerEvent):void { _applyFilters() });
 				}
 
 				private function _generateFilterName():String {
@@ -50,7 +50,6 @@ package com.dreamofninjas.rib.views
 								name = _generateFilterName();
 						}
 						_filterMap[name] = filter;
-						trace("adding filter " + name);
 						applyFilters();
 						return name;
 				}
@@ -70,24 +69,20 @@ package com.dreamofninjas.rib.views
 				}
 				
 				protected function _applyFilters():void {
-					trace("APPLYH");
 					var spriteList:Array = [];
 					for each(var sprite:ItemSlotSprite in _spriteMap) {
 						var keep:Boolean = true;
-					for each(var filterFunc:Function in _filterMap) {
-						if (!filterFunc(_itemList[sprite.itemId])) {
-							trace("skip item " + sprite.itemId);
-							keep = false;
+						for each(var filterFunc:Function in _filterMap) {
+							if (!filterFunc(_itemList[sprite.itemId])) {
+								keep = false;
+							}
+						}
+						if (keep) {
+							spriteList.push(sprite);
 						}
 					}
-					trace(spriteList);
-					if (!keep)
-						spriteList.push(sprite);
-					}
-					trace("(((((((((((((((((((((:" + _spriteList.length);
-					_spriteList.splice(0, _spriteList.length, spriteList);
+					_spriteList.replace(spriteList);
 				}
-				
 				protected override function setupView():void {
 						var itemSlotSprite:Sprite = new ItemSlotSprite();
 						var itemW:int = itemSlotSprite.width;

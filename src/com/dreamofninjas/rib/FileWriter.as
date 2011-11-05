@@ -48,7 +48,7 @@ package com.dreamofninjas.rib
 		
 		public function getLolDataDir(callback:Function):void {
 			if (_lolDataPath != null && isValidLolDataPath(_lolDataPath))
-				callback.apply(this, [_lolDataPath]);
+				callback(_lolDataPath);
 			
 			var file:File = new File();//File.applicationDirectory;
 			file.nativePath = "C:/Program Files (x86)/Riot Games/League of Legends";
@@ -59,7 +59,7 @@ package com.dreamofninjas.rib
 				var path:File = buildDataPath(file);
 				if (isValidLolDataPath(path)) {
 					_lolDataPath = path;
-					callback.apply(this, [path]);
+					callback(path);
 				}
 				else
 					getLolDataDir(callback);

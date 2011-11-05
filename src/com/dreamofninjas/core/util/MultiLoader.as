@@ -25,7 +25,7 @@ package com.dreamofninjas.core.util
 	}
 
 	public override function load(timeout:uint=0):void {
-		super.load.apply(timeout);
+		super.load(timeout);
 	    if (_loadCalled) {
 		throw new Error("Can't call load() twice.");
 	    }

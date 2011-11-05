@@ -18,7 +18,7 @@ package com.dreamofninjas.rib.models {
 		private static var _nextRequestId:int = 1;
 		
 		public override function load(timeout:uint=0):void {
-			super.load.apply(timeout);
+			super.load(timeout);
 			var db:File = File.applicationStorageDirectory.resolvePath("test.db");
 			// after we set the file for our database we need to open it with our SQLConnection.
 			sqlc.openAsync(db);
