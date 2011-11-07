@@ -1,0 +1,431 @@
+<champions>
+  <champion>
+    <id>84</id)
+    <name>Akali</name>
+    <title>The Fist Of Shadow</title>
+  </champion>
+  <champion>
+    <id>12</id)
+    <name>Alistar</name>
+    <title>The Minotaur</title>
+  </champion>
+  <champion>
+    <id>32</id)
+    <name>Amumu</name>
+    <title>The Sad Mummy</title>
+  </champion>
+  <champion>
+    <id>34</id)
+    <name>Anivia</name>
+    <title>The Cryophoenix</title>
+  </champion>
+  <champion>
+    <id>1</id)
+    <name>Annie</name>
+    <title>The Dark Child</title>
+  </champion>
+  <champion>
+    <id>22</id)
+    <name>Ashe</name>
+    <title>The Frost Archer</title>
+  </champion>
+  <champion>
+    <id>53</id)
+    <name>Blitzcrank</name>
+    <title>The Great Steam Golem</title>
+  </champion>
+  <champion>
+    <id>63</id)
+    <name>Brand</name>
+    <title>The Burning Vengeance</title>
+  </champion>
+  <champion>
+    <id>51</id)
+    <name>Caitlyn</name>
+    <title>The Sheriff Of Piltover</title>
+  </champion>
+  <champion>
+    <id>69</id)
+    <name>Cassiopeia</name>
+    <title>The Serpent S Embrace</title>
+  </champion>
+  <champion>
+    <id>31</id)
+    <name>Cho</name>
+    <title>Gath The Terror Of The Void</title>
+  </champion>
+  <champion>
+    <id>42</id)
+    <name>Corki</name>
+    <title>The Daring Bombardier</title>
+  </champion>
+  <champion>
+    <id>36</id)
+    <name>Dr</name>
+    <title>Mundo The Madman Of Zaun</title>
+  </champion>
+  <champion>
+    <id>28</id)
+    <name>Evelynn</name>
+    <title>The Widowmaker</title>
+  </champion>
+  <champion>
+    <id>81</id)
+    <name>Ezreal</name>
+    <title>The Prodigal Explorer</title>
+  </champion>
+  <champion>
+    <id>9</id)
+    <name>Fiddlesticks</name>
+    <title>The Harbinger Of Doom</title>
+  </champion>
+  <champion>
+    <id>3</id)
+    <name>Galio</name>
+    <title>The Sentinel S Sorrow</title>
+  </champion>
+  <champion>
+    <id>41</id)
+    <name>Gangplank</name>
+    <title>The Saltwater Scourge</title>
+  </champion>
+  <champion>
+    <id>86</id)
+    <name>Garen</name>
+    <title>The Might Of Demacia</title>
+  </champion>
+  <champion>
+    <id>79</id)
+    <name>Gragas</name>
+    <title>The Rabble Rouser</title>
+  </champion>
+  <champion>
+    <id>104</id)
+    <name>Graves</name>
+    <title>The Outlaw</title>
+  </champion>
+  <champion>
+    <id>74</id)
+    <name>Heimerdinger</name>
+    <title>The Revered Inventor</title>
+  </champion>
+  <champion>
+    <id>39</id)
+    <name>Irelia</name>
+    <title>The Will Of The Blades</title>
+  </champion>
+  <champion>
+    <id>40</id)
+    <name>Janna</name>
+    <title>The Storm S Fury</title>
+  </champion>
+  <champion>
+    <id>59</id)
+    <name>Jarvan</name>
+    <title>Iv The Exemplar Of Demacia</title>
+  </champion>
+  <champion>
+    <id>24</id)
+    <name>Jax</name>
+    <title>Grandmaster At Arms</title>
+  </champion>
+  <champion>
+    <id>43</id)
+    <name>Karma</name>
+    <title>The Enlightened One</title>
+  </champion>
+  <champion>
+    <id>30</id)
+    <name>Karthus</name>
+    <title>The Deathsinger</title>
+  </champion>
+  <champion>
+    <id>38</id)
+    <name>Kassadin</name>
+    <title>The Void Walker</title>
+  </champion>
+  <champion>
+    <id>55</id)
+    <name>Katarina</name>
+    <title>The Sinister Blade</title>
+  </champion>
+  <champion>
+    <id>10</id)
+    <name>Kayle</name>
+    <title>The Judicator</title>
+  </champion>
+  <champion>
+    <id>85</id)
+    <name>Kennen</name>
+    <title>The Heart Of The Tempest</title>
+  </champion>
+  <champion>
+    <id>96</id)
+    <name>Kog</name>
+    <title>Maw The Mouth Of The Abyss</title>
+  </champion>
+  <champion>
+    <id>7</id)
+    <name>Leblanc</name>
+    <title>The Deceiver</title>
+  </champion>
+  <champion>
+    <id>64</id)
+    <name>Lee</name>
+    <title>Sin The Blind Monk</title>
+  </champion>
+  <champion>
+    <id>89</id)
+    <name>Leona</name>
+    <title>The Radiant Dawn</title>
+  </champion>
+  <champion>
+    <id>99</id)
+    <name>Lux</name>
+    <title>The Lady Of Luminosity</title>
+  </champion>
+  <champion>
+    <id>54</id)
+    <name>Malphite</name>
+    <title>Shard Of The Monolith</title>
+  </champion>
+  <champion>
+    <id>90</id)
+    <name>Malzahar</name>
+    <title>The Prophet Of The Void</title>
+  </champion>
+  <champion>
+    <id>57</id)
+    <name>Maokai</name>
+    <title>The Twisted Treant</title>
+  </champion>
+  <champion>
+    <id>11</id)
+    <name>Master</name>
+    <title>Yi The Wuju Bladesman</title>
+  </champion>
+  <champion>
+    <id>21</id)
+    <name>Miss</name>
+    <title>Fortune The Bounty Hunter</title>
+  </champion>
+  <champion>
+    <id>82</id)
+    <name>Mordekaiser</name>
+    <title>The Master Of Metal</title>
+  </champion>
+  <champion>
+    <id>25</id)
+    <name>Morgana</name>
+    <title>Fallen Angel</title>
+  </champion>
+  <champion>
+    <id>75</id)
+    <name>Nasus</name>
+    <title>The Curator Of The Sands</title>
+  </champion>
+  <champion>
+    <id>76</id)
+    <name>Nidalee</name>
+    <title>The Bestial Huntress</title>
+  </champion>
+  <champion>
+    <id>56</id)
+    <name>Nocturne</name>
+    <title>The Eternal Nightmare</title>
+  </champion>
+  <champion>
+    <id>20</id)
+    <name>Nunu</name>
+    <title>The Yeti Rider</title>
+  </champion>
+  <champion>
+    <id>2</id)
+    <name>Olaf</name>
+    <title>The Berserker</title>
+  </champion>
+  <champion>
+    <id>61</id)
+    <name>Orianna</name>
+    <title>The Lady Of Clockwork</title>
+  </champion>
+  <champion>
+    <id>80</id)
+    <name>Pantheon</name>
+    <title>The Artisan Of War</title>
+  </champion>
+  <champion>
+    <id>78</id)
+    <name>Poppy</name>
+    <title>The Iron Ambassador</title>
+  </champion>
+  <champion>
+    <id>33</id)
+    <name>Rammus</name>
+    <title>The Armordillo</title>
+  </champion>
+  <champion>
+    <id>58</id)
+    <name>Renekton</name>
+    <title>The Butcher Of The Sands</title>
+  </champion>
+  <champion>
+    <id>92</id)
+    <name>Riven</name>
+    <title>The Exile</title>
+  </champion>
+  <champion>
+    <id>68</id)
+    <name>Rumble</name>
+    <title>The Mechanized Menace</title>
+  </champion>
+  <champion>
+    <id>13</id)
+    <name>Ryze</name>
+    <title>The Rogue Mage</title>
+  </champion>
+  <champion>
+    <id>35</id)
+    <name>Shaco</name>
+    <title>The Demon Jester</title>
+  </champion>
+  <champion>
+    <id>98</id)
+    <name>Shen</name>
+    <title>Eye Of Twilight</title>
+  </champion>
+  <champion>
+    <id>102</id)
+    <name>Shyvana</name>
+    <title>The Half Dragon</title>
+  </champion>
+  <champion>
+    <id>27</id)
+    <name>Singed</name>
+    <title>The Mad Chemist</title>
+  </champion>
+  <champion>
+    <id>14</id)
+    <name>Sion</name>
+    <title>The Undead Champion</title>
+  </champion>
+  <champion>
+    <id>15</id)
+    <name>Sivir</name>
+    <title>The Battle Mistress</title>
+  </champion>
+  <champion>
+    <id>72</id)
+    <name>Skarner</name>
+    <title>The Crystal Vanguard</title>
+  </champion>
+  <champion>
+    <id>37</id)
+    <name>Sona</name>
+    <title>Maven Of The Strings</title>
+  </champion>
+  <champion>
+    <id>16</id)
+    <name>Soraka</name>
+    <title>The Starchild</title>
+  </champion>
+  <champion>
+    <id>50</id)
+    <name>Swain</name>
+    <title>The Master Tactician</title>
+  </champion>
+  <champion>
+    <id>91</id)
+    <name>Talon</name>
+    <title>The Blade S Shadow</title>
+  </champion>
+  <champion>
+    <id>44</id)
+    <name>Taric</name>
+    <title>The Gem Knight</title>
+  </champion>
+  <champion>
+    <id>17</id)
+    <name>Teemo</name>
+    <title>The Swift Scout</title>
+  </champion>
+  <champion>
+    <id>18</id)
+    <name>Tristana</name>
+    <title>The Megling Gunner</title>
+  </champion>
+  <champion>
+    <id>48</id)
+    <name>Trundle</name>
+    <title>The Cursed Troll</title>
+  </champion>
+  <champion>
+    <id>23</id)
+    <name>Tryndamere</name>
+    <title>The Barbarian King</title>
+  </champion>
+  <champion>
+    <id>4</id)
+    <name>Twisted</name>
+    <title>Fate The Card Master</title>
+  </champion>
+  <champion>
+    <id>29</id)
+    <name>Twitch</name>
+    <title>The Plague Rat</title>
+  </champion>
+  <champion>
+    <id>77</id)
+    <name>Udyr</name>
+    <title>The Animal Spirit</title>
+  </champion>
+  <champion>
+    <id>6</id)
+    <name>Urgot</name>
+    <title>The Headsman S Pride</title>
+  </champion>
+  <champion>
+    <id>67</id)
+    <name>Vayne</name>
+    <title>The Night Hunter</title>
+  </champion>
+  <champion>
+    <id>45</id)
+    <name>Veigar</name>
+    <title>The Tiny Master Of Evil</title>
+  </champion>
+  <champion>
+    <id>8</id)
+    <name>Vladimir</name>
+    <title>The Crimson Reaper</title>
+  </champion>
+  <champion>
+    <id>19</id)
+    <name>Warwick</name>
+    <title>The Blood Hunter</title>
+  </champion>
+  <champion>
+    <id>62</id)
+    <name>Wukong</name>
+    <title>The Monkey King</title>
+  </champion>
+  <champion>
+    <id>101</id)
+    <name>Xerath</name>
+    <title>The Magus Ascendant</title>
+  </champion>
+  <champion>
+    <id>5</id)
+    <name>Xin</name>
+    <title>Zhao The Seneschal Of Demacia</title>
+  </champion>
+  <champion>
+    <id>83</id)
+    <name>Yorick</name>
+    <title>The Gravedigger</title>
+  </champion>
+  <champion>
+    <id>26</id)
+    <name>Zilean</name>
+    <title>The Chronokeeper</title>
+  </champion></champions
