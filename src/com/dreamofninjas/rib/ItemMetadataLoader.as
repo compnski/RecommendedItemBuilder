@@ -24,7 +24,8 @@ public class ItemMetadataLoader extends BaseLoader {
 		return _itemList;
 	}
 
-	public override function load():void {
+	public override function load(timeout:uint=0):void {
+		super.load.apply(timeout);
 		_xmlString = new URLRequest("assets/items.xml");
 		_xmlLoader = new URLLoader(_xmlString);
 		_xmlLoader.addEventListener(Event.COMPLETE, xmlLoaded);

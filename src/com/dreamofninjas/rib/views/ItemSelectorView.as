@@ -7,9 +7,11 @@ package com.dreamofninjas.rib.views
 		import com.dreamofninjas.rib.models.ItemMetadata;
 		import com.dreamofninjas.rib.views.sprites.ItemSlotSprite;
 		import com.dreamofninjas.rib.views.sprites.ItemSprite;
-
+		
 		import flash.display.Sprite;
 		import flash.events.MouseEvent;
+		import flash.events.TimerEvent;
+		import flash.utils.Timer;
 
 
 		public class ItemSelectorView extends BaseLayout
@@ -27,10 +29,12 @@ package com.dreamofninjas.rib.views
 				private var _spriteMap:Object = {};
 				private var _filterMap:Object = {};
 				private var _filterNameIdx:uint = 0;
-
+				private var _filterTimer:Timer = new Timer(2,1);
+				
 				public function ItemSelectorView(itemList:Object) {
 						super();
 						_itemList = itemList;
+						_filterTimer.addEventListener(TimerEvent.TIMER_COMPLETE, function(ev:TimerEvent) { _applyFilters() });
 				}
 
 				private function _generateFilterName():String {
@@ -46,14 +50,44 @@ package com.dreamofninjas.rib.views
 								name = _generateFilterName();
 						}
 						_filterMap[name] = filter;
+						trace("adding filter " + name);
+						applyFilters();
 						return name;
 				}
 
 				public function removeFilter(name:String):void {
 						_filterMap[name] = null;
 						delete _filterMap[name];
+						applyFilters();
 				}
 
+
+				protected function applyFilters():void {
+					if(!_filterTimer.running) {
+						_filterTimer.reset();
+						_filterTimer.start();
+					}
+				}
+				
+				protected function _applyFilters():void {
+					trace("APPLYH");
+					var spriteList:Array = [];
+					for each(var sprite:ItemSlotSprite in _spriteMap) {
+						var keep:Boolean = true;
+					for each(var filterFunc:Function in _filterMap) {
+						if (!filterFunc(_itemList[sprite.itemId])) {
+							trace("skip item " + sprite.itemId);
+							keep = false;
+						}
+					}
+					trace(spriteList);
+					if (!keep)
+						spriteList.push(sprite);
+					}
+					trace("(((((((((((((((((((((:" + _spriteList.length);
+					_spriteList.splice(0, _spriteList.length, spriteList);
+				}
+				
 				protected override function setupView():void {
 						var itemSlotSprite:Sprite = new ItemSlotSprite();
 						var itemW:int = itemSlotSprite.width;

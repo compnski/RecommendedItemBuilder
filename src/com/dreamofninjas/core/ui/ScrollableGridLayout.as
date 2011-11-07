@@ -48,7 +48,8 @@ package com.dreamofninjas.core.ui
 			while(numChildren) {
 				removeChildAt(0);
 			}
-			buildSpriteGrid();
+			//buildSpriteGrid();
+			setupView();
 			addChild(_childMask);
 		}
 		
