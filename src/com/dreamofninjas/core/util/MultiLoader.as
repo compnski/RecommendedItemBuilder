@@ -1,7 +1,7 @@
 package com.dreamofninjas.core.util
 {
+    import flash.events.ErrorEvent;
     import flash.events.Event;
-
     import flash.events.IEventDispatcher;
     import flash.events.OutputProgressEvent;
 
@@ -50,10 +50,15 @@ package com.dreamofninjas.core.util
 	    }
 	    _outstandingWaitCount++;
 	    loader.addEventListener(Event.COMPLETE, childLoaded);
+		loader.addEventListener(ErrorEvent.ERROR, childFailed);
 	    _loaderMap[loader] = loader;
 	}
 
-	public function childLoaded(evt:Event):void {
+	protected function childFailed(evt:Event):void {
+		dispatchEvent(evt);
+	}
+	
+	protected function childLoaded(evt:Event):void {
 	    var loader:ILoadable = evt.target as ILoadable;
 	    trace("Loaded " + evt.target);
 	    //var loader:ILoadable = _loaderMap[loader];

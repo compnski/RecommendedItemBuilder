@@ -16,6 +16,7 @@ package com.dreamofninjas.rib
 	
 	import flash.display.MovieClip;
 	import flash.display.Sprite;
+	import flash.events.ErrorEvent;
 	import flash.events.Event;
 	import flash.events.MouseEvent;
 	import flash.text.TextField;
@@ -27,6 +28,8 @@ package com.dreamofninjas.rib
 		protected var itemStore:SqliteItemSetStore = new SqliteItemSetStore();
 		protected var itemMetadataLoader:ItemMetadataLoader = new ItemMetadataLoader();
 		protected var initialAssetLoader:MultiLoader = new MultiLoader();
+		protected var lolDataPathLoader:LolDataPathLoader = new LolDataPathLoader();
+		
 		protected var isv:ItemSetView
 		private var items:ItemSet ;
 		private var champName:TextInput = new TextInput();
@@ -46,11 +49,17 @@ package com.dreamofninjas.rib
 			//this.width = 1024;
 			//this.height = 768;
 			trace("RibStage");
-			initialAssetLoader.addEventListener(LoadedEvent.COMPLETE, allLoaded);
+			initialAssetLoader.addEventListener(Event.COMPLETE, allLoaded);
+			initialAssetLoader.addEventListener(ErrorEvent.ERROR, loadFailed);
 			initialAssetLoader.add(itemMetadataLoader);
 			initialAssetLoader.add(itemStore);
+			initialAssetLoader.add(lolDataPathLoader);
 			
 			initialAssetLoader.load();
+		}
+		
+		protected function loadFailed(evt:ErrorEvent):void {
+			trace(evt.text);
 		}
 		
 		protected function allLoaded(evt:Event):void {
@@ -66,7 +75,8 @@ package com.dreamofninjas.rib
 			iselview = new ItemSelectorView(itemMetadataLoader.itemList)
 				.withHeight(480)
 				.withWidth(640)
-				.draw() as ItemSelectorView; 
+				.draw() as ItemSelectorView;
+			iselview.x = 20;
 			iselview.y = 120;
 			addChild(iselview);
 			ASLog.warning(this.width);
@@ -82,7 +92,7 @@ package com.dreamofninjas.rib
 
 			addChild(button);
 			button.addEventListener(MouseEvent.CLICK, function(ev:MouseEvent):void {
-				var fw:FileWriter = new FileWriter();
+				var fw:FileWriter = new FileWriter(lolDataPathLoader.lolDataDir);
 				items.clearChampions();
 				items.championList.add(champName.text);
 				fw.saveItemSet(items);

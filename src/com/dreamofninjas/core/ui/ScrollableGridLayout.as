@@ -45,8 +45,8 @@ package com.dreamofninjas.core.ui
 		
 		protected function spriteListUpdated(ev:SpriteListEvent):void {
 			//clear and reset the view when the underlying spritelist changes
-			while(numChildren) {
-				removeChildAt(0);
+			while(_panel.numChildren) {
+				removeFromPanelAt(0);
 			}
 			//buildSpriteGrid();
 			setupView();
@@ -65,7 +65,7 @@ package com.dreamofninjas.core.ui
 		}
 		
 		protected function onScrollHandler(ev:ScrollEvent):void {
-			buildSpriteGrid();	
+			_panel.y = _yScrollOffset;
 		}
 		
 		protected override function setupView():void {
@@ -94,10 +94,10 @@ package com.dreamofninjas.core.ui
 			for each(var sprite:Sprite in _spriteList) {
 				sprite.width = _itemW;
 				sprite.height = _itemH;
-				sprite.x = (spriteIdx % itemsPerRow) * (_itemW + _xPadding) + _xOffset + _xScrollOffset;
-				sprite.y = int(spriteIdx / itemsPerRow) * (_itemH + _yPadding) + _yOffset + _yScrollOffset;
+				sprite.x = (spriteIdx % itemsPerRow) * (_itemW + _xPadding) + _xOffset;
+				sprite.y = int(spriteIdx / itemsPerRow) * (_itemH + _yPadding) + _yOffset;
 				sprite.visible = (sprite.y + _itemW) > 0;
-				addChild(sprite);
+				addToPanel(sprite);
 				spriteIdx++;
 			}
 		}

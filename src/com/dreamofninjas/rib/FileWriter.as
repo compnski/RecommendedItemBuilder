@@ -20,74 +20,19 @@ package com.dreamofninjas.rib
 		
 		private var _lolDataPath:File= null;
 		
-		public function FileWriter()
+		public function FileWriter(lolDataPath:File)
 		{
+			_lolDataPath = lolDataPath;
 
 		}
-		private function isValidLolDataPath(path:File):Boolean {
-			if (!path.nativePath.search(CHARACTER_DIR))
-				return false;
-			return path.exists && path.isDirectory;
-		}
-		
-		private function buildDataPath(basePath:File):File{
-			var file:File = basePath.resolvePath(RELATIVE_RELEASE_PATH);
-			var releases:Array = file.getDirectoryListing();
-			releases.sortOn('nativePath', Array.NUMERIC | Array.DESCENDING);
-			file = releases[0].resolvePath(CHARACTER_DIR);
-			if (!file.exists) {
-				try {
-					file.createDirectory();
-				}catch(e:*) {
-					dispatchEvent(new IOErrorEvent(IOErrorEvent.IO_ERROR,false, false, "Failed to create directory"));
-					return null; 
-				}
-			}
-			return file
-		}
-		
-		public function getLolDataDir(callback:Function):void {
-			if (_lolDataPath != null && isValidLolDataPath(_lolDataPath))
-				callback(_lolDataPath);
-			
-			var file:File = new File();//File.applicationDirectory;
-			file.nativePath = "C:/Program Files (x86)/Riot Games/League of Legends";
-			
-			file.addEventListener(Event.SELECT, dirSelected);
-			file.browseForDirectory("Please browse to your LOL install folder.");
-			function dirSelected(e:Event):void { 
-				var path:File = buildDataPath(file);
-				if (isValidLolDataPath(path)) {
-					_lolDataPath = path;
-					callback(path);
-				}
-				else
-					getLolDataDir(callback);
-			}
-			
-		}
-		
+
 		public function saveItemSet(itemSet:ItemSet):void {
-			if (_lolDataPath == null) {
-				getLolDataDir(function(path:File):void{ _lolDataPath = path; saveItemSet(itemSet) });
-				return;
-			}
-			
 			for each(var champ:String in itemSet.championList) {
 				saveItemSetForChampion(champ, itemSet);
 			}
 		}
 		
-		protected function _getConfigFromItemSet(itemSet:ItemSet):String {
-			var stringBuf:Array = ["[ItemSet1]\r\n", "SetName=", itemSet.name,"\r\n"];
-			for (var i:int=1; i <= 6; i++) {
-				stringBuf.push("RecItem", i.toString());
-				stringBuf.push("=",itemSet.getItem(i-1),"\r\n");
-			}
-			return stringBuf.join("");
-		}
-		
-		protected function saveItemSetForChampion(champion:String, itemSet:ItemSet):Boolean {
+		public function saveItemSetForChampion(champion:String, itemSet:ItemSet):Boolean {
 			try {
 				var champDir:File = _lolDataPath.resolvePath(champion);
 				champDir.createDirectory();
@@ -107,5 +52,15 @@ package com.dreamofninjas.rib
 			}
 			return true;
 		}
+		
+		protected function _getConfigFromItemSet(itemSet:ItemSet):String {
+			var stringBuf:Array = ["[ItemSet1]\r\n", "SetName=", itemSet.name,"\r\n"];
+			for (var i:int=1; i <= 6; i++) {
+				stringBuf.push("RecItem", i.toString());
+				stringBuf.push("=",itemSet.getItem(i-1),"\r\n");
+			}
+			return stringBuf.join("");
+		}
+
 	}
 }

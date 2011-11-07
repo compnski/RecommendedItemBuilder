@@ -1,6 +1,7 @@
 package com.dreamofninjas.core.util
 {
 	
+	import flash.events.ErrorEvent;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
@@ -31,6 +32,9 @@ package com.dreamofninjas.core.util
 		
 		protected function loadComplete():void {
 			dispatchEvent(new Event(Event.COMPLETE));
+		}
+		protected function loadFailed(msg:String):void {
+			dispatchEvent(new ErrorEvent(ErrorEvent.ERROR, false, false, msg));
 		}
 	}
 }

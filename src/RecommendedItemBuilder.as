@@ -12,7 +12,7 @@ package
 	import flash.utils.getDefinitionByName;
 	import com.dreamofninjas.rib.RibStage;
 
-	[SWF(width="800", height="600")]
+	[SWF(width="1024", height="768")]
 	
 	public class RecommendedItemBuilder extends Sprite
 	{
